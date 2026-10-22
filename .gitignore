@@ -1,0 +1,17 @@
+.venv/
+**/.venvs/
+**/.deps/
+**/cache/
+**/checkpoints/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+**/token
+**/stored_tokens
+workspaces/g1_kimodo/third_party/kimodo/
+**/runs/*
+**/reports/videos/*
+**/data/user_input/*
+**/data/custom/*
+*.tar.gz

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "name": "g1_kimodo",
+  "timezone": "Asia/Seoul",
+  "created_on": "2026-10-21",
+  "robot": "unitree_g1_29dof_no_articulated_fingers",
+  "pipeline": {
+    "generator": "nvidia/Kimodo-G1-RP-v1",
+    "text_encoder": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "text_encoder_device": "cpu",
+    "training_backend": "existing_isaaclab_2.3.2",
+    "training_algorithm": "rsl_rl_ppo_reference_tracking",
+    "validation_backend": "mujoco",
+    "protomotions_role": "reference_and_optional_integration_only",
+    "experimental_text_encoder": "Qwen/Qwen3-8B + Qian2501/kimodo-qwen3-projection",
+    "official_text_encoder_status": "verified_cpu_encoder_and_cuda_g1_generation",
+    "experimental_text_encoder_status": "download_paused_cache_preserved_official_llama_priority"
+  },
+  "environment": {
+    "tools_python": "python3.11",
+    "isaaclab_python": "python",
+    "generation_venv": ".venvs/kimodo",
+    "mujoco_venv": ".venvs/mujoco",
+    "minimum_free_disk_gib_for_full_setup": 40,
+    "disk_budget_is_provisional": true,
+    "large_downloads_completed": false,
+    "public_kimodo_checkpoint_downloaded": false,
+    "text_encoder_downloaded": false,
+    "official_llm2vec_adapters_downloaded": false,
+    "isaaclab_version": "2.3.2"
+  },
+  "scope": {
+    "terrain": "flat",
+    "baseline_motion_ids": [
+      "stand",
+      "wave",
+      "walk_slow"
+    ],
+    "extensions_after_baseline": [
+      "sidestep",
+      "turn"
+    ],
+    "initial_generation_duration_s": 5.0,
+    "object_interactions_in_baseline": false
+  },
+  "source_revisions": {
+    "isaaclab_checkout": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "kimodo_inspected_commit": "e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "protomotions_inspected_commit": "f69fdcaabff31846b4d2247207417b57dc788828",
+    "kimodo_installed_commit": "e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "kimodo_model_revision": "3020ad8c419c244e0429d360163730c63c4ed011",
+    "robot_asset_revision": "kimodo:e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "unitree_velocity_reference_revision": "7c40519e02d7dd16c06b25fe3fa3b67fdeb7cd74",
+    "official_encoder_base_revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+    "official_encoder_mntp_revision": "31474e395ada192e8ed1586db6be79fb3b70c9c0",
+    "official_encoder_supervised_revision": "baa8ebf04a1c2500e61288e7dad65e8ae42601a7"
+  }
+}

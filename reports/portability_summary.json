@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "method": "same host, separate /tmp path, newly installed isolated CPU environment",
+  "K1_canonical": {
+    "stand": [
+      3,
+      3
+    ],
+    "wave": [
+      3,
+      3
+    ],
+    "walk_slow": [
+      6,
+      6
+    ],
+    "QA_passed": true,
+    "independent_trace_audit_passed": true
+  },
+  "K1_salute": {
+    "successes": 3,
+    "attempts": 3,
+    "duration_s": 6.96,
+    "QA_passed": true,
+    "independent_trace_audit_passed": true
+  },
+  "G1_MuJoCo_same_policy": {
+    "stand": [
+      20,
+      20
+    ],
+    "wave": [
+      20,
+      20
+    ],
+    "walk_slow": [
+      0,
+      20
+    ],
+    "fixtures_passed": true,
+    "independent_trace_audit_passed": true,
+    "performance_passed": false
+  },
+  "new_GPU_generation_or_Isaac_training_tested": false
+}

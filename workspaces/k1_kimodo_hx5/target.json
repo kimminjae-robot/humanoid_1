@@ -1,0 +1,47 @@
+{
+  "status": "conservative_walking_nominal_validated",
+  "body": "AI Sapiens K1",
+  "hands": "ROBOTIS HX5-D20 left and right",
+  "preferred_hand_asset_revision_family": "rev2",
+  "body_source": "https://github.com/ROBOTIS-GIT/ai_sapiens",
+  "hand_source": "https://github.com/ROBOTIS-GIT/robotis_hand",
+  "hand_control_initial": "PD_hold_relaxed_pose",
+  "finger_motion_source": "separate_controller_not_Kimodo_G1",
+  "pinned_commits": {
+    "K1": "611a070fad83d2a9ef9c1bc82213988450cf471c",
+    "HX5": "6f9e22a5fc86fe2f0947a44405e52e776c8c08c8"
+  },
+  "integrated_model_validated": true,
+  "hand_manipulation_in_scope": false,
+  "canonical_dataset": "data/dataset.json",
+  "dynamic_success_rates": {
+    "stand": 1.0,
+    "wave": 1.0,
+    "walk_slow": 1.0
+  },
+  "full_performance_passed": true,
+  "next_action": "General contact-driven retargeting with geometry/collision and arm-orientation preservation; automate Kimodo UI to MuJoCo. Retain new aiming failure and canonical successful set.",
+  "body_joint_count": 23,
+  "hand_joint_count": 40,
+  "total_joint_count": 63,
+  "performance_scope": "selected_conservative_motion_set_only",
+  "current_evaluation_run": "walking_improved_v4",
+  "additional_evaluation_runs": [
+    "walk_validation202"
+  ],
+  "current_controller": "wbc (walking only); legacy balance for stand/wave",
+  "walking_summary": "reports/walking_improvement_summary.json",
+  "final_objective": "General motion generation and retargeting: Kimodo output to K1/HX5 MuJoCo preview and dynamic evaluation through a common pipeline; explicitly report feasibility, fidelity and failures.",
+  "latest_new_motion_evaluation": {
+    "label": "salute_standing_v6",
+    "run": "salute_standing_v6_centroidal",
+    "report": "reports/salute_improvement.md",
+    "QA_passed": true,
+    "physical_successes": 3,
+    "physical_attempts": 3,
+    "controller": "centroidal",
+    "reference_index": "reports/dataset_salute_standing_v6.json",
+    "scope": "conditioned_standing_salute_only"
+  },
+  "salute_refinement_run": "salute_standing_v6_refined"
+}

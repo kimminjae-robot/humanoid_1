@@ -1,0 +1,8 @@
+{
+  "label": "salute_001",
+  "prompt": "A person stands upright at attention with both feet planted still on the ground. The person raises the right hand to the right eyebrow in a formal salute, holds the salute briefly, then lowers the right arm back to the side. The left arm stays down at the side. The torso stays upright and still throughout.",
+  "seed": 73112,
+  "duration_s": 6.0,
+  "diffusion_steps": 100,
+  "scope": "right_hand_salute_whole_body_animation; fingers_hold_existing_targets"
+}

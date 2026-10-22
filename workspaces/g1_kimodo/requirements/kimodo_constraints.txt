@@ -1,0 +1,4 @@
+# Match the working CUDA 12.8 stack without changing the shared Isaac environment.
+torch==2.7.0+cu128
+numpy==1.26.4
+transformers==5.1.0

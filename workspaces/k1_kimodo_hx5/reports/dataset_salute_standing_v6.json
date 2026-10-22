@@ -1,0 +1,27 @@
+{
+  "clips": [
+    {
+      "clip_id": "salute_standing_v6",
+      "motion_id": "custom",
+      "reference_npz": "data/conditioned/salute_standing_v6/reference.npz",
+      "frames": 299,
+      "fps": 50,
+      "accepted_for_tracking": true,
+      "source_reference": "/home/user/isaac/IsaacLab/workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v6/reference.npz",
+      "source_reference_sha256": "99d6bbfafb0ff440f83f80bd2dac000dacf14dc65a83685f231eb9d0eb34877b",
+      "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+      "method": "fixed_flat_feet_COM_IK_preserve_upper_body",
+      "settings": {
+        "source_reference": "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v6/reference.npz",
+        "label": "salute_standing_v6",
+        "height": 0.77,
+        "left_arm_offset": 0.0,
+        "time_scale": 1.0
+      },
+      "max_sampled_foot_position_error_m": 6.775021678044717e-07,
+      "max_COM_xy_error_m": 9.194500756890221e-08,
+      "max_upper_joint_change_rad": 0.0,
+      "max_root_translation_change_m": 0.016132969720153045
+    }
+  ]
+}

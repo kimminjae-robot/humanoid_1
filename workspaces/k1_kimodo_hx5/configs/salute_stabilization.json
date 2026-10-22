@@ -1,0 +1,33 @@
+{
+  "source_reference": "data/custom/salute_001/reference.npz",
+  "base_standing": {
+    "root_height_m": 0.77,
+    "feet": "neutral fixed flat soles,1mm clearance",
+    "COM": "midpoint of stance ankles",
+    "root_orientation": "preserve input"
+  },
+  "arm_solver_final": {
+    "source_reference": "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v1/reference.npz",
+    "label": "salute_arm_clearance_v6",
+    "margin": 0.015,
+    "max_correction": 0.55,
+    "speed_ratio": 1.0,
+    "initial_reference": "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v4/reference.npz",
+    "wrist_side_clearance": 0.28
+  },
+  "arm_initialization_chain": [
+    "salute_arm_clearance_v2 (3mm soft margin)",
+    "salute_arm_clearance_v4 (15mm margin,0.35rad correction bound,1.0 speed ratio)",
+    "salute_arm_clearance_v6 (15mm margin,0.55rad correction bound,0.28m lowered wrist side clearance,1.0 speed ratio)"
+  ],
+  "COM_reprojection": "data/conditioned/salute_standing_v6",
+  "controller": "centroidal",
+  "reference_fps": 50,
+  "physics_dt_s": 0.002,
+  "body_control_dt_s": 0.002,
+  "reset_seeds": [
+    1000,
+    1001,
+    1002
+  ]
+}

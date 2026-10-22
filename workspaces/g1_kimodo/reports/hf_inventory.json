@@ -1,0 +1,208 @@
+{
+  "repositories": [
+    {
+      "repo_id": "nvidia/Kimodo-G1-RP-v1",
+      "sha": "3020ad8c419c244e0429d360163730c63c4ed011",
+      "gated": false,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "name": "LICENSE",
+          "size": 10229
+        },
+        {
+          "name": "README.md",
+          "size": 12329
+        },
+        {
+          "name": "config.yaml",
+          "size": 673
+        },
+        {
+          "name": "model.safetensors",
+          "size": 1134168268
+        },
+        {
+          "name": "stats/motion/body/mean.npy",
+          "size": 3424
+        },
+        {
+          "name": "stats/motion/body/std.npy",
+          "size": 3424
+        },
+        {
+          "name": "stats/motion/global_root/mean.npy",
+          "size": 168
+        },
+        {
+          "name": "stats/motion/global_root/std.npy",
+          "size": 168
+        },
+        {
+          "name": "stats/motion/local_root/mean.npy",
+          "size": 160
+        },
+        {
+          "name": "stats/motion/local_root/std.npy",
+          "size": 160
+        }
+      ],
+      "total_bytes": 1134200522
+    },
+    {
+      "repo_id": "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp",
+      "sha": "31474e395ada192e8ed1586db6be79fb3b70c9c0",
+      "gated": false,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "name": "README.md",
+          "size": 3315
+        },
+        {
+          "name": "adapter_config.json",
+          "size": 794
+        },
+        {
+          "name": "adapter_model.safetensors",
+          "size": 167829552
+        },
+        {
+          "name": "attn_mask_utils.py",
+          "size": 11132
+        },
+        {
+          "name": "config.json",
+          "size": 781
+        },
+        {
+          "name": "modeling_llama_encoder.py",
+          "size": 2856
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size": 335
+        },
+        {
+          "name": "tokenizer.json",
+          "size": 9085671
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 51042
+        }
+      ],
+      "total_bytes": 176986997
+    },
+    {
+      "repo_id": "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "sha": "baa8ebf04a1c2500e61288e7dad65e8ae42601a7",
+      "gated": false,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "name": "README.md",
+          "size": 62702
+        },
+        {
+          "name": "adapter_config.json",
+          "size": 794
+        },
+        {
+          "name": "adapter_model.safetensors",
+          "size": 167829552
+        }
+      ],
+      "total_bytes": 167894567
+    },
+    {
+      "repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "sha": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "gated": "manual",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "name": "LICENSE",
+          "size": 7801
+        },
+        {
+          "name": "README.md",
+          "size": 38854
+        },
+        {
+          "name": "USE_POLICY.md",
+          "size": 4696
+        },
+        {
+          "name": "config.json",
+          "size": 654
+        },
+        {
+          "name": "generation_config.json",
+          "size": 187
+        },
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "size": 4976698672
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "size": 4999802720
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "size": 4915916176
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "size": 1168138808
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 23950
+        },
+        {
+          "name": "original/consolidated.00.pth",
+          "size": 16060617592
+        },
+        {
+          "name": "original/params.json",
+          "size": 211
+        },
+        {
+          "name": "original/tokenizer.model",
+          "size": 2183982
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size": 73
+        },
+        {
+          "name": "tokenizer.json",
+          "size": 9085698
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 50977
+        }
+      ],
+      "total_bytes": 32132572570
+    }
+  ],
+  "llama_unauthenticated_config_access": "GatedRepoError",
+  "account_available": true,
+  "authenticated_access_evidence": "reports/hf_access.json",
+  "historical_unauthenticated_probe": "llama_unauthenticated_config_access records the initial pre-login result"
+}

@@ -1,0 +1,470 @@
+{
+  "status": "initial_baseline_not_motion_tracking_validated",
+  "source": "Kimodo MJCF effort/armature; official Unitree URDF velocity; project initial PD gains",
+  "joints": {
+    "left_hip_pitch_joint": {
+      "neutral_rad": -0.1,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 88.0,
+      "velocity_limit_rad_s": 32.0,
+      "position_limit_rad": [
+        -2.5307,
+        2.8798
+      ],
+      "armature_kg_m2": 0.01017752004,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 88.0
+    },
+    "left_hip_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 139.0,
+      "velocity_limit_rad_s": 20.0,
+      "position_limit_rad": [
+        -0.5236,
+        2.9671
+      ],
+      "armature_kg_m2": 0.025101925,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 139.0
+    },
+    "left_hip_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 88.0,
+      "velocity_limit_rad_s": 32.0,
+      "position_limit_rad": [
+        -2.7576,
+        2.7576
+      ],
+      "armature_kg_m2": 0.01017752004,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 88.0
+    },
+    "left_knee_joint": {
+      "neutral_rad": 0.3,
+      "kp_nm_per_rad": 100.0,
+      "kd_nm_s_per_rad": 4.0,
+      "effort_limit_nm": 139.0,
+      "velocity_limit_rad_s": 20.0,
+      "position_limit_rad": [
+        -0.087267,
+        2.8798
+      ],
+      "armature_kg_m2": 0.025101925,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 139.0
+    },
+    "left_ankle_pitch_joint": {
+      "neutral_rad": -0.2,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.87267,
+        0.5236
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "left_ankle_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.2618,
+        0.2618
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "right_hip_pitch_joint": {
+      "neutral_rad": -0.1,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 88.0,
+      "velocity_limit_rad_s": 32.0,
+      "position_limit_rad": [
+        -2.5307,
+        2.8798
+      ],
+      "armature_kg_m2": 0.01017752004,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 88.0
+    },
+    "right_hip_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 139.0,
+      "velocity_limit_rad_s": 20.0,
+      "position_limit_rad": [
+        -2.9671,
+        0.5236
+      ],
+      "armature_kg_m2": 0.025101925,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 139.0
+    },
+    "right_hip_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 88.0,
+      "velocity_limit_rad_s": 32.0,
+      "position_limit_rad": [
+        -2.7576,
+        2.7576
+      ],
+      "armature_kg_m2": 0.01017752004,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 88.0
+    },
+    "right_knee_joint": {
+      "neutral_rad": 0.3,
+      "kp_nm_per_rad": 100.0,
+      "kd_nm_s_per_rad": 4.0,
+      "effort_limit_nm": 139.0,
+      "velocity_limit_rad_s": 20.0,
+      "position_limit_rad": [
+        -0.087267,
+        2.8798
+      ],
+      "armature_kg_m2": 0.025101925,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 139.0
+    },
+    "right_ankle_pitch_joint": {
+      "neutral_rad": -0.2,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.87267,
+        0.5236
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "right_ankle_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.2618,
+        0.2618
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "waist_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 88.0,
+      "velocity_limit_rad_s": 32.0,
+      "position_limit_rad": [
+        -2.618,
+        2.618
+      ],
+      "armature_kg_m2": 0.01017752004,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 88.0
+    },
+    "waist_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.52,
+        0.52
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "waist_pitch_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 80.0,
+      "kd_nm_s_per_rad": 3.0,
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 30.0,
+      "position_limit_rad": [
+        -0.52,
+        0.52
+      ],
+      "armature_kg_m2": 0.00721945,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 35.0
+    },
+    "left_shoulder_pitch_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -3.0892,
+        2.6704
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "left_shoulder_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -1.5882,
+        2.2515
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "left_shoulder_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -2.618,
+        2.618
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "left_elbow_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -1.0472,
+        2.0944
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "left_wrist_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -1.97222,
+        1.97222
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "left_wrist_pitch_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 22.0,
+      "position_limit_rad": [
+        -1.61443,
+        1.61443
+      ],
+      "armature_kg_m2": 0.00425,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 5.0
+    },
+    "left_wrist_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 22.0,
+      "position_limit_rad": [
+        -1.61443,
+        1.61443
+      ],
+      "armature_kg_m2": 0.00425,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 5.0
+    },
+    "right_shoulder_pitch_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -3.0892,
+        2.6704
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "right_shoulder_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -2.2515,
+        1.5882
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "right_shoulder_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -2.618,
+        2.618
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "right_elbow_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 40.0,
+      "kd_nm_s_per_rad": 2.0,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -1.0472,
+        2.0944
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "right_wrist_roll_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 25.0,
+      "velocity_limit_rad_s": 37.0,
+      "position_limit_rad": [
+        -1.97222,
+        1.97222
+      ],
+      "armature_kg_m2": 0.003609725,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 25.0
+    },
+    "right_wrist_pitch_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 22.0,
+      "position_limit_rad": [
+        -1.61443,
+        1.61443
+      ],
+      "armature_kg_m2": 0.00425,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 5.0
+    },
+    "right_wrist_yaw_joint": {
+      "neutral_rad": 0.0,
+      "kp_nm_per_rad": 10.0,
+      "kd_nm_s_per_rad": 0.5,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 22.0,
+      "position_limit_rad": [
+        -1.61443,
+        1.61443
+      ],
+      "armature_kg_m2": 0.00425,
+      "frictionloss_nm": 0.0,
+      "joint_damping_nm_s_rad": 0.0,
+      "action_scale_rad": 0.25,
+      "urdf_effort_nm": 5.0
+    }
+  }
+}

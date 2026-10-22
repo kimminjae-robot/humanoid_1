@@ -1,0 +1,24 @@
+{
+  "scope": "independent_CPU_checkpoint_tensor_comparison",
+  "checkpoint": "runs/20261021_125809_049195_stage04_multimotion_residual_train_v11/model_84.pt",
+  "checkpoint_sha256": "b33509dfa7191927591db1c5cfaccc2f0fa045c2f3699e1989ef83f3793508c5",
+  "base_checkpoint": "runs/20261021_124755_775412_stage04_stand_masked_frozen_v9/model_4.pt",
+  "base_checkpoint_sha256": "4c0e4ba5b1addce9521eac5eca25da905b6fa0ea4a6d98dcb1048b8acaa43002",
+  "checks": {
+    "all_base_parameters_present": true,
+    "base_weights_exactly_unchanged": true,
+    "all_policy_weights_finite": true
+  },
+  "passed": true,
+  "parameter_max_absolute_differences": {
+    "actor.base.0.weight": 0.0,
+    "actor.base.0.bias": 0.0,
+    "actor.base.2.weight": 0.0,
+    "actor.base.2.bias": 0.0,
+    "actor.base.4.weight": 0.0,
+    "actor.base.4.bias": 0.0,
+    "actor.base.6.weight": 0.0,
+    "actor.base.6.bias": 0.0
+  },
+  "verifier_sha256": "ddf1c4198250837af58bd43460bc79e442c3b3bac5c0af23b1b6844c46f38e21"
+}

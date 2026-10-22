@@ -1,0 +1,4 @@
+# Isolated G1 asset and reference QA/IK tools; shared Isaac environment is unchanged.
+mujoco==3.5.0
+numpy==1.26.4
+scipy==1.17.1

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "download_paused_official_llama_priority",
+  "encoder_repo": "Qwen/Qwen3-8B",
+  "encoder_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "projection_repo": "Qian2501/kimodo-qwen3-projection",
+  "projection_revision": "8b1cb2c951bdf213a523c5a280f694c11a83dfa5",
+  "projection_filename": "qwen3_8b_projection.pt",
+  "implementation_repo": "qian2501/kimodo",
+  "implementation_revision": "4758a089ec24039456758e412a83e0ceda4209af",
+  "source_path": "kimodo/model/custom_text_encoder.py",
+  "hidden_dimension": 4096,
+  "projection_dimension": 4096,
+  "official_kimodo_checkpoint_unchanged": true,
+  "official_encoder_comparison": "optional_after_official_baseline",
+  "quality_equivalence_established": false,
+  "implementation_sha256": "a6dc80e862bc24eb87c9c0b1956da49a73b185cafe48f2466b15395a24e5daa3"
+}

@@ -1,0 +1,1 @@
+Candidate export: stage 4 incomplete. Isaac stand20/20, wave20/20, walking0/20. Not a passed full-motion or MuJoCo sim2sim policy. Includes frozen balance and trainable residual MLP. Canonical reference index is recorded in contract.json.

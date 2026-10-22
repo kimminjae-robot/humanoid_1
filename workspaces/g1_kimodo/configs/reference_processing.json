@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "version": "reference_v9",
+  "target_fps": 50,
+  "ground_clearance_m": 0.002,
+  "geometry_contact_height_m": 0.015,
+  "heel_toe_active_height_band_m": 0.003,
+  "contact_definition": "height_only_min_capsule_bottom_no_velocity_filter",
+  "slip_definition": "max_horizontal_rigid_material_point_velocity_of_lowest_capsules_per_stance_foot",
+  "self_collision_definition": "all_active_MuJoCo_non_floor_contacts_no_new_pair_exclusions",
+  "slip_fraction_denominator": "geometry_stance_foot_frames",
+  "stationary": {
+    "freeze_root_and_12_leg_joints_to_source_median": true,
+    "stand_trim_start_s": 1.0
+  },
+  "walk": {
+    "target_mean_forward_speed_m_s": 0.45,
+    "double_support_search_window_s": 1.0,
+    "swing_clearance_m": 0.07,
+    "swing_lift_fraction": 0.2,
+    "root_z_adjustment_bounds_m": [
+      -0.2,
+      0.1
+    ],
+    "forward_spatial_scale": 0.35,
+    "root_xy_adjustment_bound_m": 0.15,
+    "pelvis_height_m": 0.735,
+    "pelvis_height_weight": 40,
+    "joint_temporal_weight": 0.2,
+    "minimum_temporal_stretch": 3.0,
+    "smooth_fixed_pelvis_xy": true,
+    "pelvis_xy_filter_s": 0.12,
+    "stance_toe_rock_max_rad": 0.7,
+    "toe_rock_start_pelvis_lead_m": 0.08,
+    "toe_rock_full_pelvis_lead_m": 0.28,
+    "pelvis_follows_support_center": true,
+    "pelvis_support_center_filter_s": 0.35,
+    "upright_pelvis_keep_yaw": true
+  },
+  "timing": {
+    "pre_hold_s": 0.5,
+    "post_hold_s": 1.0,
+    "speed_ramp_s": 0.75
+  },
+  "arm_clearance": {
+    "max_outward_shoulder_roll_adjustment_rad": 0.45,
+    "step_rad": 0.01,
+    "target_self_penetration_m": 0.003,
+    "fade_by_hand_height_below_shoulder_m": 0.25
+  },
+  "ik": {
+    "position_weight": 100,
+    "orientation_weight": 100,
+    "pose_regularization_weight": 0.02,
+    "temporal_regularization_weight": 0.003,
+    "root_height_regularization_weight": 0.2,
+    "root_height_temporal_weight": 2,
+    "max_function_evaluations": 60,
+    "max_foot_target_error_m": 0.005
+  },
+  "endpoint_gate": {
+    "min_static_com_support_margin_m": 0.005,
+    "max_joint_speed_rad_s": 0.05,
+    "max_root_linear_speed_m_s": 0.02,
+    "max_root_angular_speed_rad_s": 0.05
+  },
+  "threshold_policy": "Keep configs/evaluation.json kinematic thresholds unchanged. Freeze definitions before processed-reference pass rates; change data or algorithms rather than relax a failed gate."
+}

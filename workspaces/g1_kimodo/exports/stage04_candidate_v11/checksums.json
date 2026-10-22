@@ -1,0 +1,8 @@
+{
+  "observation_action_fixtures.npz": "800150f6fc18ea8cfc0524f99e74cae7c2835d31fab3da2726c4e87640dba041",
+  "policy.pt": "bfc2ba749660c2c7111d89fca02c34d7fbe3af2ca52efbe4faf313bf7457fd7e",
+  "stage_readiness.json": "ebd3293e33b0037acd6984a715fb14135d0178a5dff3188e1073c00ee7aaaf78",
+  "base_weight_verification.json": "553821c7305da06c7535c3db0bbdc54b451ee10f8587760cf1bcef88341eb2db",
+  "contract.json": "b4c95a2af385614229e3f872d39aa296525558d9a76495b584e863abdb1afc52",
+  "README.md": "422db648503b01f097387f15273cc2f34b1f329453c430c70e9ed81237b2d4b0"
+}

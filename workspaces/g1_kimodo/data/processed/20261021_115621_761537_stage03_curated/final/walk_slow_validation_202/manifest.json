@@ -1,0 +1,95 @@
+{
+  "clip_id": "walk_slow_validation_202",
+  "motion_id": "walk_slow",
+  "split": "validation",
+  "seed": 202,
+  "source_sha256": "6e0208f1d11c6824e6f17aeb1b8eabcdd6a4563b738ec4f57be5011057656a58",
+  "source_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/walk_slow_validation_202/manifest.json",
+  "accepted": true,
+  "rejection_reasons": [],
+  "metrics": {
+    "frames": 616,
+    "fps": 50,
+    "max_ground_penetration_m": 0.0,
+    "max_self_collision_depth_m": 0.002032764570544812,
+    "self_collision_pairs_max_depth_m": {
+      "left_thigh / left_hand_collision": 0.002032764570544812,
+      "right_thigh / right_hand_collision": 0.0013492849921935973
+    },
+    "stance_foot_frames": 950,
+    "slip_violating_stance_foot_frames": 0,
+    "slip_frame_fraction": 0.0,
+    "max_stance_slip_speed_m_s": 0.010190360972088452,
+    "max_joint_velocity_ratio": 0.5570138550475525,
+    "velocity_limit_exceedance_fraction": 0.0,
+    "max_root_linear_speed_m_s": 0.24650636909539828,
+    "max_root_linear_acceleration_m_s2": 0.5198634207225442,
+    "max_joint_limit_violation_rad": 0.0,
+    "endpoint_static_com_margin_m": [
+      0.0618443537733317,
+      0.06515377931583588
+    ],
+    "endpoint_max_joint_speed_rad_s": 7.105427357601002e-15,
+    "unsupported_frame_fraction": 0.0,
+    "checks": {
+      "finite_values": true,
+      "unit_quaternions": true,
+      "joint_limits": true,
+      "ground_penetration": true,
+      "self_collision": true,
+      "foot_slip_fraction": true,
+      "joint_velocity": true,
+      "support_present_all_frames": true,
+      "static_endpoint_hold": true,
+      "root_linear_speed": true,
+      "root_linear_acceleration": true,
+      "foot_ik_tracking": true
+    },
+    "passed": true
+  },
+  "processing": {
+    "crop_source_frame_indices_inclusive": [
+      23,
+      131
+    ],
+    "constant_origin_xyz_m": [
+      0.47936514019966125,
+      -0.056754447519779205,
+      0.0
+    ],
+    "constant_heading_removed_rad": 0.04819930693069725,
+    "stationary_lower_body_projection": false,
+    "forward_spatial_scale": 0.35,
+    "ik": {
+      "max_foot_target_error_m": 9.064380132660835e-05,
+      "total_optimizer_evaluations": 3410,
+      "root_z_correction_range_m": [
+        -0.05239950451335107,
+        -0.004369690153120387
+      ]
+    },
+    "arm_clearance": {
+      "left": {
+        "outward_shoulder_roll_delta_rad": 0.1,
+        "remaining_self_penetration_m": 0.002032764570544812
+      },
+      "right": {
+        "outward_shoulder_roll_delta_rad": 0.09,
+        "remaining_self_penetration_m": 0.0013492849921935973
+      }
+    },
+    "planned_stance_fraction": [
+      0.7954545454545454,
+      0.6883116883116883
+    ],
+    "pre_hold_s": 0.5,
+    "post_hold_s": 1.0
+  },
+  "processing_run_id": "20261021_115321_103691_stage03_reference_v9",
+  "processing_profile_snapshot": "runs/20261021_115321_103691_stage03_reference_v9/provenance/configs__reference_processing.json",
+  "processing_profile_sha256": "c14743415dbd6d5cc8d2004cdb9713ada0f1d4c1a400d7fa4dc16efa4ebeef9d",
+  "bundle": "data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/motion_bundle.npz",
+  "bundle_sha256": "fdeb1aa887f55f6187b573d0beb74f3fc17be53155cae840542af7faebe43d7b",
+  "qpos_csv": "data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/qpos.csv",
+  "qpos_sha256": "486498f01eb50d13ed7648a4b82862f359a85fe7cb479d7b08e95fadf463c401"
+}

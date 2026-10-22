@@ -1,0 +1,5 @@
+# Install with --no-deps --target <workspace>/.deps; NumPy/SciPy come from K1_KIMODO_PYTHON.
+osqp==1.0.4
+jinja2==3.1.6
+MarkupSafe==3.0.3
+joblib==1.5.2

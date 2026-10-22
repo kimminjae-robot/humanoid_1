@@ -1,0 +1,7 @@
+<mujoco model="g1_kimodo_scene">
+  <include file="g1_robot.xml" />
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast" />
+  <worldbody>
+    <geom name="floor" type="plane" size="10 10 0.1" friction="0.8 0.005 0.0001" />
+  </worldbody>
+</mujoco>

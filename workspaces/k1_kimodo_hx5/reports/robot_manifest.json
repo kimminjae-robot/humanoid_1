@@ -1,0 +1,264 @@
+{
+  "status": "model_compiled_not_dynamic_tracking_validation",
+  "nq": 70,
+  "nv": 69,
+  "nu": 63,
+  "body_joint_names": [
+    "left_hip_pitch_joint",
+    "left_hip_roll_joint",
+    "left_hip_yaw_joint",
+    "left_knee_joint",
+    "left_ankle_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_hip_pitch_joint",
+    "right_hip_roll_joint",
+    "right_hip_yaw_joint",
+    "right_knee_joint",
+    "right_ankle_pitch_joint",
+    "right_ankle_roll_joint",
+    "waist_yaw_joint",
+    "left_shoulder_pitch_joint",
+    "left_shoulder_roll_joint",
+    "left_shoulder_yaw_joint",
+    "left_elbow_joint",
+    "left_wrist_roll_joint",
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint"
+  ],
+  "hand_joint_names": [
+    "finger_l_joint1",
+    "finger_l_joint2",
+    "finger_l_joint3",
+    "finger_l_joint4",
+    "finger_l_joint5",
+    "finger_l_joint6",
+    "finger_l_joint7",
+    "finger_l_joint8",
+    "finger_l_joint9",
+    "finger_l_joint10",
+    "finger_l_joint11",
+    "finger_l_joint12",
+    "finger_l_joint13",
+    "finger_l_joint14",
+    "finger_l_joint15",
+    "finger_l_joint16",
+    "finger_l_joint17",
+    "finger_l_joint18",
+    "finger_l_joint19",
+    "finger_l_joint20",
+    "finger_r_joint1",
+    "finger_r_joint2",
+    "finger_r_joint3",
+    "finger_r_joint4",
+    "finger_r_joint5",
+    "finger_r_joint6",
+    "finger_r_joint7",
+    "finger_r_joint8",
+    "finger_r_joint9",
+    "finger_r_joint10",
+    "finger_r_joint11",
+    "finger_r_joint12",
+    "finger_r_joint13",
+    "finger_r_joint14",
+    "finger_r_joint15",
+    "finger_r_joint16",
+    "finger_r_joint17",
+    "finger_r_joint18",
+    "finger_r_joint19",
+    "finger_r_joint20"
+  ],
+  "total_mass_kg": 36.808610605999995,
+  "original_K1_mass_kg": 35.70603989000001,
+  "rubber_hand_mass_removed_kg": 0.738,
+  "attachments": [
+    {
+      "side": "left",
+      "source_xml": "third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_left.xml",
+      "source_sha256": "740dd652f7b27e40a60dca3cde2358a8b193a963c999c4b2502c6a25cbce5968",
+      "parent": "left_wrist_roll_rubber_hand",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "quaternion_wxyz": [
+        0.7071067811865476,
+        0,
+        0.7071067811865476,
+        0
+      ],
+      "status": "simulation_mount_assumption_not_hardware_verified"
+    },
+    {
+      "side": "right",
+      "source_xml": "third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_right.xml",
+      "source_sha256": "e6de4c63ff62d3e1ba2dac7b32bc0bb290714f051a3a17b347fe8df4660a2252",
+      "parent": "right_wrist_roll_rubber_hand",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "quaternion_wxyz": [
+        0.7071067811865476,
+        0,
+        0.7071067811865476,
+        0
+      ],
+      "status": "simulation_mount_assumption_not_hardware_verified"
+    }
+  ],
+  "source_K1_urdf_sha256": "fc65a54ac74e1073dc5610805d9b29369856df91c1e24954b1199c95ae084112",
+  "hand_revision": "6f9e22a5fc86fe2f0947a44405e52e776c8c08c8",
+  "model_sha256": "363eaabeb65345f74cf5065007ed753a0bc6dc0ea1f060f57c1476aa03a661bd",
+  "body_actuator_parameters": {
+    "left_hip_pitch_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_hip_roll_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_hip_yaw_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_knee_joint": {
+      "kp": 180,
+      "kd": 6,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_ankle_pitch_joint": {
+      "kp": 100,
+      "kd": 4,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_ankle_roll_joint": {
+      "kp": 100,
+      "kd": 4,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_hip_pitch_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "right_hip_roll_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "right_hip_yaw_joint": {
+      "kp": 140,
+      "kd": 5,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "right_knee_joint": {
+      "kp": 180,
+      "kd": 6,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "right_ankle_pitch_joint": {
+      "kp": 100,
+      "kd": 4,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "right_ankle_roll_joint": {
+      "kp": 100,
+      "kd": 4,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "waist_yaw_joint": {
+      "kp": 65,
+      "kd": 3,
+      "effort": 96.9,
+      "speed": 11.5
+    },
+    "left_shoulder_pitch_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "left_shoulder_roll_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "left_shoulder_yaw_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "left_elbow_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "left_wrist_roll_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_shoulder_pitch_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_shoulder_roll_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_shoulder_yaw_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_elbow_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    },
+    "right_wrist_roll_joint": {
+      "kp": 35,
+      "kd": 2,
+      "effort": 47.3,
+      "speed": 20.9
+    }
+  },
+  "neutral_root_height_m": 0.7874822440050671,
+  "hand_controller": "official_position_actuators_at_zero_clipped_to_range",
+  "hand_manipulation_in_scope": false,
+  "portability": {
+    "original_model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+    "change": "mesh file paths only; dynamics and reference arrays preserved"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generator_model": "Kimodo-G1-RP-v1",
+  "fps": 30,
+  "duration_s": 5.0,
+  "diffusion_steps": 100,
+  "postprocess": true,
+  "seed_splits": {
+    "train": [11, 22, 33],
+    "validation": [101, 202],
+    "final": [303, 404]
+  },
+  "final_split_rule": "Generate and evaluate final motions in stage 6 only; no tuning on final results.",
+  "prompts": [
+    {"id": "stand", "stage": 2, "text": "A person stands upright in place with both feet on the ground and arms relaxed.", "review": "발 지지, 정지 위치, 몸통 흔들림"},
+    {"id": "wave", "stage": 2, "text": "A person stands in place and gently waves their right hand while keeping both feet on the ground.", "review": "오른손 동작, 두 발 지지, 몸통 안정"},
+    {"id": "walk_slow", "stage": 2, "text": "A person walks slowly forward on flat ground at a steady pace.", "review": "전진, 좌우 발 교대, 발 미끄러짐"},
+    {"id": "sidestep", "stage": 6, "text": "A person takes slow side steps to the left on flat ground.", "review": "측면 이동, 발 교차와 자기 충돌"},
+    {"id": "turn", "stage": 6, "text": "A person slowly turns to the left while standing on flat ground.", "review": "방향 전환, 지지 발과 균형"}
+  ]
+}

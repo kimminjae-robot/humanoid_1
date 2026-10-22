@@ -1,0 +1,24 @@
+{
+  "source_reference": "/home/user/isaac/IsaacLab/workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v1/reference.npz",
+  "source_reference_sha256": "5ed4ef0ee91c4140988c1241e76a685f6491b63b43a4eaa66ddd78625c89efcf",
+  "settings": {
+    "source_reference": "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v1/reference.npz",
+    "label": "salute_arm_clearance_v6",
+    "margin": 0.015,
+    "max_correction": 0.55,
+    "speed_ratio": 1.0,
+    "initial_reference": "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v4/reference.npz",
+    "wrist_side_clearance": 0.28
+  },
+  "initial_max_self_penetration_m": 0.0,
+  "iterations": [
+    {
+      "iteration": 0,
+      "pairs": 0,
+      "max_self_penetration_m": 0.0
+    }
+  ],
+  "max_arm_joint_correction_rad": 0.5499999999999999,
+  "collision_pairs": [],
+  "method": "soft_collision_distance_arm_IK; root and legs unchanged; COM re-projection required"
+}

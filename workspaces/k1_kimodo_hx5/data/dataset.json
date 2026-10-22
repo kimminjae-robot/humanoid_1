@@ -1,0 +1,258 @@
+{
+  "scope": "two_static_gesture_clips_and_two_conservative_walking_clips; old failures preserved in dataset_baseline.json",
+  "clips": [
+    {
+      "clip_id": "stand_validation_101",
+      "motion_id": "stand",
+      "frames": 312,
+      "fps": 50,
+      "source_G1_csv": "g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/qpos.csv",
+      "source_csv_sha256": "7207ba52324416fe88dcb45d4596f973b3a208d8f39ddc3a452a6c49e2082f39",
+      "original_Kimodo_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/stand_validation_101/manifest.json",
+      "original_source_sha256": "4c2b9607451b8570d37911953145a8abc048ee9d67108686774f659b289b5ba0",
+      "source_bundle_sha256": "0653548eaac8c367e65b8d782269ad6eda31b20487474094f98eb025bf5d2145",
+      "method": "task_space_IK_foot_pose_arm_segment_directions_COM_regularization",
+      "leg_scale": 0.9564652092080861,
+      "root_orientation": "preserved_Kimodo_reference",
+      "hand_targets": "constant_zero_clipped_to_official_limits",
+      "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+      "max_sampled_foot_position_error_m": 1.7379448738935835e-05,
+      "max_sampled_arm_position_error_m": 0.003990489016157503,
+      "qpos_csv": "data/stand_validation_101/qpos.csv",
+      "reference_npz": "data/stand_validation_101/reference.npz",
+      "variant": "v1",
+      "accepted_for_tracking": true,
+      "selection_reason": "v1 preserves QA and full-clip dynamic3/3; v2 wave regressed to1/3"
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "motion_id": "wave",
+      "frames": 362,
+      "fps": 50,
+      "source_G1_csv": "g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_101/qpos.csv",
+      "source_csv_sha256": "20b7213c80c3e4c0ca2e5804054397187cebea37c5fa941d5919c06d4a76d71c",
+      "original_Kimodo_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/wave_validation_101/manifest.json",
+      "original_source_sha256": "560d1a76ab01a401959344c9a4cfabdfbe52a3d8e5e1e843b08ec892ade8b2c2",
+      "source_bundle_sha256": "45616579ed6949a09950e219d5e5ad4c9f4dedaa08e48a52666de68888d9c0f9",
+      "method": "task_space_IK_foot_pose_arm_segment_directions_COM_regularization",
+      "leg_scale": 0.9598602687181168,
+      "root_orientation": "preserved_Kimodo_reference",
+      "hand_targets": "constant_zero_clipped_to_official_limits",
+      "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+      "max_sampled_foot_position_error_m": 1.4767529997084529e-05,
+      "max_sampled_arm_position_error_m": 0.006467433122183395,
+      "qpos_csv": "data/wave_validation_101/qpos.csv",
+      "reference_npz": "data/wave_validation_101/reference.npz",
+      "variant": "v1",
+      "accepted_for_tracking": true,
+      "selection_reason": "v1 preserves QA and full-clip dynamic3/3; v2 wave regressed to1/3"
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "motion_id": "walk_slow",
+      "split": "validation",
+      "seed": 101,
+      "source_sha256": "c33332c05b64c0a04391456972f95ae1adf5cb5101d6fe69313bd83442e31a23",
+      "source_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/walk_slow_validation_101/manifest.json",
+      "accepted_for_tracking": true,
+      "frames": 1740,
+      "fps": 50,
+      "reference_npz": "data/walk_v4/reference.npz",
+      "qpos_csv": "data/walk_v4/qpos.csv",
+      "method": "contact_aware_conservative_Kimodo_footsteps_K1_IK",
+      "variant": "walk_v4",
+      "max_sampled_foot_position_error_m": 1.0675845727393375e-06,
+      "source_G1_csv": "g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_101/qpos.csv",
+      "source_bundle_sha256": "eb29a53e63645a420a153e13a1e6030bb3a87fb9c2195b6c9aac2d29561b61aa",
+      "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+      "source_contact_events": [
+        {
+          "source_start": 71,
+          "source_end": 128,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.13687170708280216,
+            0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 170,
+          "source_end": 198,
+          "swing_side": "right",
+          "destination_ankle_m": [
+            0.13857374200394484,
+            -0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 233,
+          "source_end": 280,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.26165452504722825,
+            0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 312,
+          "source_end": 359,
+          "swing_side": "right",
+          "destination_ankle_m": [
+            0.2655862887814909,
+            -0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 386,
+          "source_end": 441,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.36089045506588274,
+            0.125,
+            0.066
+          ]
+        }
+      ],
+      "settings": {
+        "label": "walk_v4",
+        "scale": 0.3,
+        "transfer_s": 3.0,
+        "swing_s": 3.0,
+        "height": 0.74
+      },
+      "upper_body": "neutralized_to_isolate_gait; fingers_hold_original_targets",
+      "root_orientation": "upright_heading_zero",
+      "duration_s": 34.78,
+      "forward_foot_displacement_m": [
+        [
+          0.3496115919400558,
+          0.0,
+          0.0
+        ],
+        [
+          0.25430742565566394,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_s": 11.921656545004225,
+      "selection_reason": "frozen QA and three-reset full-clip physics gates passed with conservative conditioning and centroidal QP/PD",
+      "performance_scope": "conditioned_shorter_slower_steps; neutral_upper_body"
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "motion_id": "walk_slow",
+      "split": "validation",
+      "seed": 202,
+      "source_sha256": "6e0208f1d11c6824e6f17aeb1b8eabcdd6a4563b738ec4f57be5011057656a58",
+      "source_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/walk_slow_validation_202/manifest.json",
+      "accepted_for_tracking": true,
+      "frames": 2040,
+      "fps": 50,
+      "reference_npz": "data/walk_v4_validation202/reference.npz",
+      "qpos_csv": "data/walk_v4_validation202/qpos.csv",
+      "method": "contact_aware_conservative_Kimodo_footsteps_K1_IK",
+      "variant": "walk_v4_validation202",
+      "max_sampled_foot_position_error_m": 1.0676411416458836e-06,
+      "source_G1_csv": "g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/qpos.csv",
+      "source_bundle_sha256": "fdeb1aa887f55f6187b573d0beb74f3fc17be53155cae840542af7faebe43d7b",
+      "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+      "source_contact_events": [
+        {
+          "source_start": 73,
+          "source_end": 126,
+          "swing_side": "right",
+          "destination_ankle_m": [
+            0.13491907084418334,
+            -0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 150,
+          "source_end": 197,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.13959785888098497,
+            0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 215,
+          "source_end": 288,
+          "swing_side": "right",
+          "destination_ankle_m": [
+            0.2665071453408109,
+            -0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 337,
+          "source_end": 366,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.26639830146759,
+            0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 399,
+          "source_end": 456,
+          "swing_side": "right",
+          "destination_ankle_m": [
+            0.3898825936326863,
+            -0.125,
+            0.066
+          ]
+        },
+        {
+          "source_start": 488,
+          "source_end": 530,
+          "swing_side": "left",
+          "destination_ankle_m": [
+            0.3683077176037665,
+            0.125,
+            0.066
+          ]
+        }
+      ],
+      "settings": {
+        "label": "walk_v4_validation202",
+        "scale": 0.3,
+        "transfer_s": 3.0,
+        "swing_s": 3.0,
+        "height": 0.74,
+        "source_clip": "walk_slow_validation_202"
+      },
+      "upper_body": "neutralized_to_isolate_gait; fingers_hold_original_targets",
+      "root_orientation": "upright_heading_zero",
+      "duration_s": 40.78,
+      "forward_foot_displacement_m": [
+        [
+          0.3570288544779396,
+          0.0,
+          0.0
+        ],
+        [
+          0.37860373050685936,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_s": 14.142869318005978,
+      "selection_reason": "frozen QA and three-reset full-clip physics gates passed with conservative conditioning and centroidal QP/PD",
+      "performance_scope": "conditioned_shorter_slower_steps; neutral_upper_body"
+    }
+  ],
+  "accepted": 4,
+  "rejected": 0,
+  "final_seeds_used": false,
+  "original_Kimodo_generation": "reused_preserved_official_G1_samples_not_new_K1_native_network_generation"
+}

@@ -1,0 +1,29 @@
+{
+  "packaged_on": "2026-10-22",
+  "source_workspace_revision": "37ddf626871758333d6ed89cf64ad702aef127d0",
+  "kimodo": {
+    "repository": "https://github.com/nv-tlabs/kimodo.git",
+    "revision": "e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954"
+  },
+  "generator": {
+    "repo_id": "nvidia/Kimodo-G1-RP-v1",
+    "revision": "3020ad8c419c244e0429d360163730c63c4ed011"
+  },
+  "K1": {
+    "repository": "https://github.com/ROBOTIS-GIT/ai_sapiens.git",
+    "revision": "611a070fad83d2a9ef9c1bc82213988450cf471c"
+  },
+  "HX5": {
+    "repository": "https://github.com/ROBOTIS-GIT/robotis_hand.git",
+    "revision": "6f9e22a5fc86fe2f0947a44405e52e776c8c08c8"
+  },
+  "portability": {
+    "K1_original_model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+    "K1_portable_model_sha256": "363eaabeb65345f74cf5065007ed753a0bc6dc0ea1f060f57c1476aa03a661bd"
+  },
+  "G1_velocity_URDF": {
+    "repository": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7c40519e02d7dd16c06b25fe3fa3b67fdeb7cd74",
+    "license": "licenses/Unitree-BSD-3-Clause.txt"
+  }
+}

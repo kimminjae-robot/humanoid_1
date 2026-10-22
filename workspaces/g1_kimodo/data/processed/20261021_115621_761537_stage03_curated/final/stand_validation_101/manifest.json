@@ -1,0 +1,94 @@
+{
+  "clip_id": "stand_validation_101",
+  "motion_id": "stand",
+  "split": "validation",
+  "seed": 101,
+  "source_sha256": "4c2b9607451b8570d37911953145a8abc048ee9d67108686774f659b289b5ba0",
+  "source_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/stand_validation_101/manifest.json",
+  "accepted": true,
+  "rejection_reasons": [],
+  "metrics": {
+    "frames": 312,
+    "fps": 50,
+    "max_ground_penetration_m": 0.0,
+    "max_self_collision_depth_m": 0.0018084778546403335,
+    "self_collision_pairs_max_depth_m": {
+      "right_thigh / right_hand_collision": 0.0018084778546403335
+    },
+    "stance_foot_frames": 624,
+    "slip_violating_stance_foot_frames": 0,
+    "slip_frame_fraction": 0.0,
+    "max_stance_slip_speed_m_s": 9.930136612989092e-16,
+    "max_joint_velocity_ratio": 0.0018888179955128064,
+    "velocity_limit_exceedance_fraction": 0.0,
+    "max_root_linear_speed_m_s": 4.443059973708341e-16,
+    "max_root_linear_acceleration_m_s2": 3.332294980281256e-14,
+    "max_joint_limit_violation_rad": 0.0,
+    "endpoint_static_com_margin_m": [
+      0.08770247531169433,
+      0.08780614205442022
+    ],
+    "endpoint_max_joint_speed_rad_s": 1.7763568394002505e-15,
+    "unsupported_frame_fraction": 0.0,
+    "checks": {
+      "finite_values": true,
+      "unit_quaternions": true,
+      "joint_limits": true,
+      "ground_penetration": true,
+      "self_collision": true,
+      "foot_slip_fraction": true,
+      "joint_velocity": true,
+      "support_present_all_frames": true,
+      "static_endpoint_hold": true,
+      "root_linear_speed": true,
+      "root_linear_acceleration": true,
+      "foot_ik_tracking": true
+    },
+    "passed": true
+  },
+  "processing": {
+    "crop_source_frame_indices_inclusive": [
+      30,
+      149
+    ],
+    "constant_origin_xyz_m": [
+      0.005625631893053651,
+      -0.0008887393632903695,
+      0.0
+    ],
+    "constant_heading_removed_rad": -0.03389327084546107,
+    "stationary_lower_body_projection": true,
+    "forward_spatial_scale": 1.0,
+    "ik": {
+      "max_foot_target_error_m": 2.1751037165861767e-05,
+      "total_optimizer_evaluations": 32,
+      "root_z_correction_range_m": [
+        0.009048705458157835,
+        0.009048705458157835
+      ]
+    },
+    "arm_clearance": {
+      "left": {
+        "outward_shoulder_roll_delta_rad": 0.0,
+        "remaining_self_penetration_m": 0
+      },
+      "right": {
+        "outward_shoulder_roll_delta_rad": 0.02,
+        "remaining_self_penetration_m": 0.0018084778546403335
+      }
+    },
+    "planned_stance_fraction": [
+      1.0,
+      1.0
+    ],
+    "pre_hold_s": 0.5,
+    "post_hold_s": 1.0
+  },
+  "processing_run_id": "20261021_115321_103691_stage03_reference_v9",
+  "processing_profile_snapshot": "runs/20261021_115321_103691_stage03_reference_v9/provenance/configs__reference_processing.json",
+  "processing_profile_sha256": "c14743415dbd6d5cc8d2004cdb9713ada0f1d4c1a400d7fa4dc16efa4ebeef9d",
+  "bundle": "data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/motion_bundle.npz",
+  "bundle_sha256": "0653548eaac8c367e65b8d782269ad6eda31b20487474094f98eb025bf5d2145",
+  "qpos_csv": "data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/qpos.csv",
+  "qpos_sha256": "7207ba52324416fe88dcb45d4596f973b3a208d8f39ddc3a452a6c49e2082f39"
+}

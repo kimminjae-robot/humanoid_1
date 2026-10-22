@@ -1,0 +1,1043 @@
+{
+  "schema_version": 1,
+  "packaged_on": "2026-10-22",
+  "scope": "minimal_public_runtime_package",
+  "files": {
+    ".gitignore": {
+      "bytes": 232,
+      "sha256": "8146b35e0df6e646d79d7bb7d2e0f5d634e5b15083e4dcc637239bd2798c7d33"
+    },
+    "README.md": {
+      "bytes": 3170,
+      "sha256": "544c256d879f2d2f6b710df30e080cd58779387f03cbdfcd75ca26f05a54a0c1"
+    },
+    "docs/PACKAGE_SCOPE.md": {
+      "bytes": 1498,
+      "sha256": "93ec60779d5243cb90b2f72e31a422ba560d3ae647c2e45c820fdd0ac4cd9f9f"
+    },
+    "docs/PROJECT_SUMMARY.ko.md": {
+      "bytes": 4570,
+      "sha256": "ef8f084e7ec119d0bba7caef619524828f106f4598e29ef5e43ff747491cd78f"
+    },
+    "docs/PUBLICATION_AUDIT.md": {
+      "bytes": 1975,
+      "sha256": "2d3ae1602e0ad8cc00468f76c9e03a136601fe8cb3ee0d7b4703b3b35e26ca82"
+    },
+    "docs/REPRODUCE.md": {
+      "bytes": 5707,
+      "sha256": "80dc803259c30ad4f3ecb15b6c1cce96481af3b028731e068879dd6b19e6d056"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 2108,
+      "sha256": "2b45856c3b5fa232031141140260230783de42f7acccd9196b633392438dcfbf"
+    },
+    "licenses/HX5-Apache-2.0.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "licenses/K1-Apache-2.0.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "licenses/Kimodo-Apache-2.0.txt": {
+      "bytes": 11387,
+      "sha256": "d1a7d615ab8eff4de143b1456f46dabf232f54daf0fcf9a70442bb6f637a9e95"
+    },
+    "licenses/Unitree-BSD-3-Clause.txt": {
+      "bytes": 1559,
+      "sha256": "2b794acf1e250f5545ae5a47d81e5685ea5488ce077d1087ed8be5f81e9ba5c0"
+    },
+    "reports/portability_summary.json": {
+      "bytes": 796,
+      "sha256": "bd5baaba79479bb2419c3bb895a2c6326e88fdced446187963762d37d7eee150"
+    },
+    "requirements/generation.txt": {
+      "bytes": 1734,
+      "sha256": "9b26cd055d7ea5892d7d2496044f65a09d8f59beac51e0dda877b37a1088f960"
+    },
+    "requirements/mujoco.txt": {
+      "bytes": 100,
+      "sha256": "59d52238b2966c3e65557f651d3b4c6bb76d7402983d76739fdff8ba5895df4e"
+    },
+    "setup.sh": {
+      "bytes": 1354,
+      "sha256": "10d76c2dbae5b34919327f447795eec553b0686d7d79660d73f895a1dc48c5f0"
+    },
+    "sources.lock.json": {
+      "bytes": 1085,
+      "sha256": "6c75b069a47ad7917a47a5ee2776530e01b83ff5575f0fd04b7752f023ad3ca6"
+    },
+    "tools/download_generator.py": {
+      "bytes": 1203,
+      "sha256": "b87d5e23b4458aaf8a2eb699b8ebc62c3e6e17aa05393cccf0af7ab808a05e93"
+    },
+    "tools/fetch_kimodo.py": {
+      "bytes": 1054,
+      "sha256": "b30f25fcb31aa70ec1fc073ff32404f6eefe666a5bdc07b78f12debe19b5d79e"
+    },
+    "tools/verify_package.py": {
+      "bytes": 1500,
+      "sha256": "1c05083c48c83f000377215773040130f736dd61ccf597e8e04d35c7dbe19c1f"
+    },
+    "workspaces/g1_kimodo/STATUS.md": {
+      "bytes": 1896,
+      "sha256": "0e614536fb9e48a64079a32a6418c7018d91ba122f26deeb28831efbcca9b1b6"
+    },
+    "workspaces/g1_kimodo/assets/g1/g1_robot.xml": {
+      "bytes": 24441,
+      "sha256": "6d6d8f0c19fe996f00c28f8ae7710a262796c3f74019ed400be8d810898d7394"
+    },
+    "workspaces/g1_kimodo/assets/g1/g1_scene.xml": {
+      "bytes": 265,
+      "sha256": "2a10baba697b372f4b852ae79917c79c03c96930035c9b078cb47186e2413acc"
+    },
+    "workspaces/g1_kimodo/assets/g1/usd/configuration/g1_base.usd": {
+      "bytes": 13717,
+      "sha256": "c6d4fa932f0ef58462a329d8eda076b0727b52428816a4eb8dc59cc9dac1b2c4"
+    },
+    "workspaces/g1_kimodo/assets/g1/usd/configuration/g1_physics.usd": {
+      "bytes": 11230,
+      "sha256": "e24e707e978a7c0286e9c0db9ae6dd21558ce96fcf09b3718b91fd47cce80b14"
+    },
+    "workspaces/g1_kimodo/assets/g1/usd/configuration/g1_robot.usd": {
+      "bytes": 1708,
+      "sha256": "3f4654970e4a96d988366fd8382986f5301736b86c0fbf1a19d0936a2dae7981"
+    },
+    "workspaces/g1_kimodo/assets/g1/usd/configuration/g1_sensor.usd": {
+      "bytes": 648,
+      "sha256": "d0b513cf6a94d5f37625c19223624c8ab06da8802ba29731f27747bd238bf90c"
+    },
+    "workspaces/g1_kimodo/assets/g1/usd/g1.usd": {
+      "bytes": 7469,
+      "sha256": "9e2391ee674e70b441c50fbd8bf5f246a917e9515bcff30896ee531a524987b6"
+    },
+    "workspaces/g1_kimodo/assets/source/g1_29dof_rev_1_0.urdf": {
+      "bytes": 33453,
+      "sha256": "f751dbd8a0cdb653dc705cc8aaa36de6658054d0fb98faf18c0462a6707d20e5"
+    },
+    "workspaces/g1_kimodo/configs/alternative_encoder.json": {
+      "bytes": 848,
+      "sha256": "0ed229620e2b1b28011d410f34e6feb5bfc10ba13f04430f56e3e9aa101072fe"
+    },
+    "workspaces/g1_kimodo/configs/evaluation.json": {
+      "bytes": 2370,
+      "sha256": "f5df6cd6be95b6254b4771c497a8bba0d615d9c80544ebbad34c636122f82c31"
+    },
+    "workspaces/g1_kimodo/configs/g1_actuators.json": {
+      "bytes": 12520,
+      "sha256": "1dc54cb2c2c0701ef6d4bd1ca094e966d6638a249ea6beb231a22b50359cca6a"
+    },
+    "workspaces/g1_kimodo/configs/g1_fixtures.json": {
+      "bytes": 97312,
+      "sha256": "a6155f0a1c4a17a16d7272700e9dc34d7827545cfd5c14840977346ac02c8d74"
+    },
+    "workspaces/g1_kimodo/configs/motion_contract.json": {
+      "bytes": 16256,
+      "sha256": "c5c96624a696b381f24548fca96192fb9fef870d9ce92221989302e6353ff6e9"
+    },
+    "workspaces/g1_kimodo/configs/official_encoder.json": {
+      "bytes": 605,
+      "sha256": "83b252e76f1236ab39bd45c7337415a742a1c2d2e7ca8836aad60d7fa9e44c0d"
+    },
+    "workspaces/g1_kimodo/configs/project.json": {
+      "bytes": 2367,
+      "sha256": "8a01d42e9ab294d0a6ee01b3b18be127277346f59d01a972af6f7463ee984bbd"
+    },
+    "workspaces/g1_kimodo/configs/prompts.json": {
+      "bytes": 1249,
+      "sha256": "04a5006cc968b9cd7835aef99f0c3b6bf395beb95d017297358d0be6f3158969"
+    },
+    "workspaces/g1_kimodo/configs/reference_processing.json": {
+      "bytes": 2373,
+      "sha256": "c14743415dbd6d5cc8d2004cdb9713ada0f1d4c1a400d7fa4dc16efa4ebeef9d"
+    },
+    "workspaces/g1_kimodo/configs/tracking_contract.json": {
+      "bytes": 16998,
+      "sha256": "c5eb6b522c0d95720d284803f4777d8601f3d743ea27069f4c0ebe9b1f851607"
+    },
+    "workspaces/g1_kimodo/configs/tracking_contract_stiff.json": {
+      "bytes": 17327,
+      "sha256": "477e5a8c49bca9ccdb02982f165a587ced81db8ebfa285076f42bb04100366fb"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/backend_maps.json": {
+      "bytes": 5286,
+      "sha256": "4755850fabce646ed14a5379d08ac651b8925bcbd647e8118065bab6ae0bca14"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/dataset.json": {
+      "bytes": 56503,
+      "sha256": "be54bfa27403e68c74bb853172b89f81aae0a0865f24a0a3a63f7cfa5922fc8b"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_11/manifest.json": {
+      "bytes": 3380,
+      "sha256": "f1c95ff2c7cbd68e4916bcf1bb28755d83bd165c1533fe80951cc3237986a3d2"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_11/motion_bundle.npz": {
+      "bytes": 486636,
+      "sha256": "2bdecd2750a8aade7b2bffd5da86beef12cd9930ab73d50b6d3d658437f9c083"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_11/qpos.csv": {
+      "bytes": 286459,
+      "sha256": "3a6f99ac0161e99df59f6a06fca4fbcfabcc82fa537cfb5daf8fe79c8d02ae90"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_22/manifest.json": {
+      "bytes": 3377,
+      "sha256": "823d434d0910f767ac94ec5097690d2849d736001d1ebf1ec5e459c9fae3d60e"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_22/motion_bundle.npz": {
+      "bytes": 481936,
+      "sha256": "ef458fe2f7ddc5c3974f11df0874c64d09dffaae0c6a7e765cc9742ae828cc56"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_22/qpos.csv": {
+      "bytes": 286700,
+      "sha256": "76bc6e71e7494b2b97a5579bec4c590a05638e2a0bc86bccd04d3e9d935d9602"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_33/manifest.json": {
+      "bytes": 3386,
+      "sha256": "154b49e01690cff6a82b0f12ae63effde9639dcd8a7d669624bd87c851a629d7"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_33/motion_bundle.npz": {
+      "bytes": 481689,
+      "sha256": "2187103e1171d7d059b37504e9610d500ece3c42934857f94b0003dfb0707b52"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_train_33/qpos.csv": {
+      "bytes": 285719,
+      "sha256": "7efc6a284bfccfa650bea0be86a4b091e995fb6c17b9c9ce6dd4cee4d2b47511"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/manifest.json": {
+      "bytes": 3326,
+      "sha256": "c87f9b78d44ee1e78d90f5d3a8a8f04a0cf70b9007e7b78654b003536357508e"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/motion_bundle.npz": {
+      "bytes": 483009,
+      "sha256": "0653548eaac8c367e65b8d782269ad6eda31b20487474094f98eb025bf5d2145"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_101/qpos.csv": {
+      "bytes": 286598,
+      "sha256": "7207ba52324416fe88dcb45d4596f973b3a208d8f39ddc3a452a6c49e2082f39"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_202/manifest.json": {
+      "bytes": 3415,
+      "sha256": "09005981f1811ab8927e145dd51078c62c5b7891b76db97c7a9619db390bfa2d"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_202/motion_bundle.npz": {
+      "bytes": 481265,
+      "sha256": "9b70f92ca8268ee960002dbf913f35f556e98bea13317d49304a0d2a92daccfe"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/stand_validation_202/qpos.csv": {
+      "bytes": 286728,
+      "sha256": "3483495afa72ccafdf8f4116131a61d4c2a9cd88f6a83f2ca3e14efdcb029a38"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_11/manifest.json": {
+      "bytes": 3426,
+      "sha256": "551b25ea99550dc7d817d9943aedc6ff9e740a382799505a6657c2181eaa7154"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_11/motion_bundle.npz": {
+      "bytes": 2385796,
+      "sha256": "18f6e7d13f36f2a43840b6a6659818756c6d70058a1839641566d9de05441120"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_11/qpos.csv": {
+      "bytes": 660873,
+      "sha256": "6616121dd3728aabe033d685338ad8347789de4d5632378215b5800aeb695e37"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_22/manifest.json": {
+      "bytes": 3421,
+      "sha256": "7e1f5e10dfe11806b6254630e4f18f71dff738eda5bca2e9528610c386fc6172"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_22/motion_bundle.npz": {
+      "bytes": 2335372,
+      "sha256": "6f1e4b8b48454300e707bf060c0df8f212ab308302d5ec7cace6563d3eb2e880"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_train_22/qpos.csv": {
+      "bytes": 668230,
+      "sha256": "01c1d377ce878a3dee98f1b648a60329d10e6cbb1b8f88c03b3aec0e7d0fdc6d"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_101/manifest.json": {
+      "bytes": 3257,
+      "sha256": "c02d851aef33ff2865aace5b055617550e1b05de06dfd401e2779c94563e4f5b"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_101/motion_bundle.npz": {
+      "bytes": 1601239,
+      "sha256": "eb29a53e63645a420a153e13a1e6030bb3a87fb9c2195b6c9aac2d29561b61aa"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_101/qpos.csv": {
+      "bytes": 480885,
+      "sha256": "ca977af35af65f1780d096fd8c761d4f0421daa148780cfbe1d26c8a0495f8a4"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/manifest.json": {
+      "bytes": 3448,
+      "sha256": "39e13ee691b0660583c468780e1a8d78143abde804cb600379f6704982401136"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/motion_bundle.npz": {
+      "bytes": 1930828,
+      "sha256": "fdeb1aa887f55f6187b573d0beb74f3fc17be53155cae840542af7faebe43d7b"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/qpos.csv": {
+      "bytes": 564008,
+      "sha256": "486498f01eb50d13ed7648a4b82862f359a85fe7cb479d7b08e95fadf463c401"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_11/manifest.json": {
+      "bytes": 3178,
+      "sha256": "2f419b31c1dded38eb4b9a6f524aea0875abcfd3c5d17f9f8c910d3dd6e51e20"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_11/motion_bundle.npz": {
+      "bytes": 598306,
+      "sha256": "3e60c92b15dc5ed6afc200473092fd23cfabfdc11769c66ec9e1f34c8cce329d"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_11/qpos.csv": {
+      "bytes": 332571,
+      "sha256": "66afd74b6de168d5f4e37d771dd86e9cd3c9a63536338c82f4d06dab439d23c2"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_22/manifest.json": {
+      "bytes": 3286,
+      "sha256": "03f25020b3017e6628d26f1d4f797a7b2a0f2abfc1e0cb8b5719c7142bb46f95"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_22/motion_bundle.npz": {
+      "bytes": 596575,
+      "sha256": "d4938bf6da457ef6c76f9f49ccb48e3da0a1611d946e1c24139bd968c3530cfa"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_22/qpos.csv": {
+      "bytes": 332026,
+      "sha256": "987acc07f29ed1fe97decdeeaf99e505076cd7d62f2984d668f46d4d2028e0df"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_33/manifest.json": {
+      "bytes": 3279,
+      "sha256": "e48712163039424522a20f7a3c7d0ad032fb7616041de5f4d2f3fc68f5ebf642"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_33/motion_bundle.npz": {
+      "bytes": 594580,
+      "sha256": "4256d8fb0e492c0a625ea539d523912ef293cbc59550cc6251768b14b94027bd"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_train_33/qpos.csv": {
+      "bytes": 331967,
+      "sha256": "65380519de0b0b9c0c8c16b50f98dcb42f501ab1d4edae5036b1f1238ffd5929"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_101/manifest.json": {
+      "bytes": 3404,
+      "sha256": "97b97419793dd543079b928b00161b713d306b52d22a2f9d78beeff814efa362"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_101/motion_bundle.npz": {
+      "bytes": 597395,
+      "sha256": "45616579ed6949a09950e219d5e5ad4c9f4dedaa08e48a52666de68888d9c0f9"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_101/qpos.csv": {
+      "bytes": 331740,
+      "sha256": "20b7213c80c3e4c0ca2e5804054397187cebea37c5fa941d5919c06d4a76d71c"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_202/manifest.json": {
+      "bytes": 3402,
+      "sha256": "81e5c4b2f18be74e544d05ebbb04f188fd11dd1a9ca608ccda2da95c6a9dbaf8"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_202/motion_bundle.npz": {
+      "bytes": 594933,
+      "sha256": "269c56aa14440a0be30b2daf80474e3c575f57a43b9a855f733aafe5af7848fb"
+    },
+    "workspaces/g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/wave_validation_202/qpos.csv": {
+      "bytes": 331795,
+      "sha256": "639592952e9669fdcbde03c0cce27d02344b4b5b530ce409caba06574c514ea2"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/README.md": {
+      "bytes": 239,
+      "sha256": "422db648503b01f097387f15273cc2f34b1f329453c430c70e9ed81237b2d4b0"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/base_weight_verification.json": {
+      "bytes": 984,
+      "sha256": "553821c7305da06c7535c3db0bbdc54b451ee10f8587760cf1bcef88341eb2db"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/checksums.json": {
+      "bytes": 558,
+      "sha256": "aa62d751fe62ecc2496756d32602ab8827f0c67b214747e14603024ea00f3380"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/contract.json": {
+      "bytes": 18553,
+      "sha256": "b4c95a2af385614229e3f872d39aa296525558d9a76495b584e863abdb1afc52"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/observation_action_fixtures.npz": {
+      "bytes": 1563510,
+      "sha256": "800150f6fc18ea8cfc0524f99e74cae7c2835d31fab3da2726c4e87640dba041"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/policy.pt": {
+      "bytes": 839142,
+      "sha256": "bfc2ba749660c2c7111d89fca02c34d7fbe3af2ca52efbe4faf313bf7457fd7e"
+    },
+    "workspaces/g1_kimodo/exports/stage04_candidate_v11/stage_readiness.json": {
+      "bytes": 30924,
+      "sha256": "ebd3293e33b0037acd6984a715fb14135d0178a5dff3188e1073c00ee7aaaf78"
+    },
+    "workspaces/g1_kimodo/reports/g1_asset_manifest.json": {
+      "bytes": 25486,
+      "sha256": "cf31301c81cea03a04cc93e28f0abf78cd8a1696ab3fe64b948bb38ea159a155"
+    },
+    "workspaces/g1_kimodo/reports/hf_inventory.json": {
+      "bytes": 4803,
+      "sha256": "479c467c70af22223adbe0e239ae73beafb629a02aa3e59f82f92ed5e32843ca"
+    },
+    "workspaces/g1_kimodo/reports/stage_04.md": {
+      "bytes": 11703,
+      "sha256": "2747c5e4408bbca62037ddc27ba5cf960106651a60eb089ac8b5c605e0582579"
+    },
+    "workspaces/g1_kimodo/reports/stage_05.md": {
+      "bytes": 7180,
+      "sha256": "8a6c8937f4f8ab0fc383bb18535fdae4799315a2a30ac1bb2156c7ad7a2a678b"
+    },
+    "workspaces/g1_kimodo/requirements/kimodo_constraints.txt": {
+      "bytes": 136,
+      "sha256": "ba829cc927c94e64c0a84cd5dfebfa12c205c58b8889b4dd62643cd87d6b1a5e"
+    },
+    "workspaces/g1_kimodo/requirements/mujoco.txt": {
+      "bytes": 128,
+      "sha256": "d06047fd415881609b6fced12723e1b408bf33449ba2f9c2be2fce3e3339cdc7"
+    },
+    "workspaces/g1_kimodo/run.sh": {
+      "bytes": 4374,
+      "sha256": "d659a2deecdc665e840e8d2e09a033174de0d2366cd0e2d76a06d3889b157479"
+    },
+    "workspaces/g1_kimodo/runs/20261021_130836_931130_stage04_multimotion_eval_v11/export/contract.json": {
+      "bytes": 18553,
+      "sha256": "b4c95a2af385614229e3f872d39aa296525558d9a76495b584e863abdb1afc52"
+    },
+    "workspaces/g1_kimodo/runs/20261021_130836_931130_stage04_multimotion_eval_v11/result.json": {
+      "bytes": 190431,
+      "sha256": "977f6c32e8b88d1f2df266b7037585403d188155aa284d2b500445bcdd4b6ef7"
+    },
+    "workspaces/g1_kimodo/runs/20261021_130836_931130_stage04_multimotion_eval_v11/rollout.npz": {
+      "bytes": 3303155,
+      "sha256": "f1ff978b257f9794892a777915b95302f989903be6e97405f09800c07ef76e91"
+    },
+    "workspaces/g1_kimodo/scripts/assess_stage1.py": {
+      "bytes": 3340,
+      "sha256": "25951e9e920138698d9387357e30a2729984a39e8f7e1be50a327f2f691b3ab5"
+    },
+    "workspaces/g1_kimodo/scripts/assess_stage2.py": {
+      "bytes": 4415,
+      "sha256": "57eb580a634615653b129b1e50434d119b856b05a06b28723ed62246500f814a"
+    },
+    "workspaces/g1_kimodo/scripts/assess_stage3.py": {
+      "bytes": 5298,
+      "sha256": "9369318c21e3e5d80e67f97d7a2a2e3b1f1a5f3e761297ad8e1446560af01bc9"
+    },
+    "workspaces/g1_kimodo/scripts/assess_stage4.py": {
+      "bytes": 7276,
+      "sha256": "70bdc3a6d854122835320f81784faba5fd3e1fc9d7a5c765a3459aa4cdbe7ceb"
+    },
+    "workspaces/g1_kimodo/scripts/assess_stage5.py": {
+      "bytes": 8342,
+      "sha256": "614fd546ef745d3bf3d6a97b4eb4f165ecc96afb0b2f71924aa1b688ad731378"
+    },
+    "workspaces/g1_kimodo/scripts/cache_official_embeddings.py": {
+      "bytes": 4935,
+      "sha256": "73173455c03a7f4da40a061c52332856319061b4474014476cd8d24b4279d92e"
+    },
+    "workspaces/g1_kimodo/scripts/cache_qwen_embeddings.py": {
+      "bytes": 4099,
+      "sha256": "e0300beedb01724bd0c915b2165928a5ef8432f44a0656760950e18713f528d2"
+    },
+    "workspaces/g1_kimodo/scripts/check_workspace.py": {
+      "bytes": 5495,
+      "sha256": "a2195c8358dac62115a1b7a6a08d1351bdd5d5c79ef4d656d3858b81ff8a6a0e"
+    },
+    "workspaces/g1_kimodo/scripts/curate_references.py": {
+      "bytes": 3715,
+      "sha256": "4bc272abe0bcbc84ad40fff705b6ab4e0f1db2c538e45b0847acb290555b5038"
+    },
+    "workspaces/g1_kimodo/scripts/diagnose_balance_dynamics.py": {
+      "bytes": 2714,
+      "sha256": "5a1a332d9901efb692bdf013f5cf6cdb37b29f12578cbdaa1cc416d900d97a3d"
+    },
+    "workspaces/g1_kimodo/scripts/diagnose_reference_wrench.py": {
+      "bytes": 3104,
+      "sha256": "c32692d6afd6cf071a80096265ac951f1f64a07c62244d60958976e9e59614d6"
+    },
+    "workspaces/g1_kimodo/scripts/diagnose_static_support.py": {
+      "bytes": 2506,
+      "sha256": "3bfd4a917819337fca7d7bda3d896ae31e1e2911a657d6cefa80eda0dc50c44e"
+    },
+    "workspaces/g1_kimodo/scripts/doctor.py": {
+      "bytes": 6068,
+      "sha256": "24cae0b69550eb64f94a783875b111d2941513a382bbd3f604c49a91379ddc33"
+    },
+    "workspaces/g1_kimodo/scripts/download_official_encoder.py": {
+      "bytes": 3036,
+      "sha256": "d917d6f81ebe86a7431829f95de31179ec25c083571a0cad1684c3c5f8a172b6"
+    },
+    "workspaces/g1_kimodo/scripts/download_progress.py": {
+      "bytes": 2095,
+      "sha256": "33c098cc0bf6387477c59a1574b38af34eff8b25a02d5ec0201c31e8d4a7cd83"
+    },
+    "workspaces/g1_kimodo/scripts/download_qwen.py": {
+      "bytes": 1815,
+      "sha256": "6af285de162d9d9d0930d10057ae4612d5e7c35a341a888e88cfbb37f0be3aed"
+    },
+    "workspaces/g1_kimodo/scripts/finalize_references.py": {
+      "bytes": 4466,
+      "sha256": "ca1cb834396bc7908a11b3f42142ec9d44890977cc7ab592f2b138cc3a912d0b"
+    },
+    "workspaces/g1_kimodo/scripts/generate_baseline.py": {
+      "bytes": 9057,
+      "sha256": "46d52ad4f71a861ab86392558b42e1fd34a9b2edb32398cd191173be9c85d6aa"
+    },
+    "workspaces/g1_kimodo/scripts/launch_demo.py": {
+      "bytes": 2345,
+      "sha256": "42daa32ee0403baa36aade6b0d5e7799e07513c4f97f61d19ec6143262144af7"
+    },
+    "workspaces/g1_kimodo/scripts/official_cached_encoder.py": {
+      "bytes": 1702,
+      "sha256": "5a64c0b12c870154f7347afb45cfd57b0935b3c9a8603f66edc32e3d3c0f4d14"
+    },
+    "workspaces/g1_kimodo/scripts/official_encoder.py": {
+      "bytes": 2231,
+      "sha256": "2af25a3248228ee9069deb5f8d6f524753b1b686097b71fb6d0199eb633109c8"
+    },
+    "workspaces/g1_kimodo/scripts/prepare_g1.py": {
+      "bytes": 9988,
+      "sha256": "d43c5ab50ebdde204f335aaea5cdb39a05b7279b0d54f7f418dddc27804406fa"
+    },
+    "workspaces/g1_kimodo/scripts/prepare_references.py": {
+      "bytes": 22692,
+      "sha256": "80e04372e15ad6791fce5db7c2017a55346a2593d474107336d99ae6260b0c35"
+    },
+    "workspaces/g1_kimodo/scripts/preview_motion.py": {
+      "bytes": 3911,
+      "sha256": "a8c84263cf17d01480afdc1d76114234585dd07fd091e8cc7ad6647d4133e32f"
+    },
+    "workspaces/g1_kimodo/scripts/probe_conditioned_walk.py": {
+      "bytes": 4815,
+      "sha256": "c65f2f8a1542e34c8b997623a355c93e9eb11ba49bee3868e21aab9201aeefb8"
+    },
+    "workspaces/g1_kimodo/scripts/probe_hf.py": {
+      "bytes": 1400,
+      "sha256": "43500e0e4489f1c4930f2fc3876b7fa47d8ae88febc29bec4c09449cb0d8007f"
+    },
+    "workspaces/g1_kimodo/scripts/qwen_cached_encoder.py": {
+      "bytes": 1411,
+      "sha256": "f7affaa1319fac7430eb46782da4a904f994a6c5cf1c556227490e3a1d8fc1b3"
+    },
+    "workspaces/g1_kimodo/scripts/reference_core.py": {
+      "bytes": 9797,
+      "sha256": "b9ac2511575322fc3f491260902ddc6ba467463573a70bfbcc539afb15828bff"
+    },
+    "workspaces/g1_kimodo/scripts/review_baseline.py": {
+      "bytes": 5755,
+      "sha256": "e35cf19208ba7b7a0c1e08beca9bacf3e0ef680a8ebbed6011619e9ba795ade4"
+    },
+    "workspaces/g1_kimodo/scripts/review_references.py": {
+      "bytes": 3511,
+      "sha256": "0436721f4ca99183fc712d4e4b65c3b6cb10f00dc1b164cc5ec75ba9f0621cb5"
+    },
+    "workspaces/g1_kimodo/scripts/review_sim2sim.py": {
+      "bytes": 5400,
+      "sha256": "a6fc4b8589e8e666e5f1e5e5419a26ed60f76158d042cab8cfb5ffbb6f892116"
+    },
+    "workspaces/g1_kimodo/scripts/review_tracking.py": {
+      "bytes": 2848,
+      "sha256": "72b860b35572136389323f6e9867fbe79355c088706b08a336020982b3c66903"
+    },
+    "workspaces/g1_kimodo/scripts/run_g1_validation.py": {
+      "bytes": 2785,
+      "sha256": "1da957ee29c9c7a64adf140a0dc019b5d267dad17f04f369d64fcf49ad332c90"
+    },
+    "workspaces/g1_kimodo/scripts/run_tracking.py": {
+      "bytes": 3237,
+      "sha256": "66dfc3be2c139e267e140190304a3a6a3b079e0afc4d41ebecc260b61e05116b"
+    },
+    "workspaces/g1_kimodo/scripts/sim2sim.py": {
+      "bytes": 19098,
+      "sha256": "9cd7c21b2215f848656cb3df23c95a22049fc2cea1597efcd9ee621b40e0c203"
+    },
+    "workspaces/g1_kimodo/scripts/smoke_kimodo.py": {
+      "bytes": 2640,
+      "sha256": "f000d8bc925f1ba69c9859269a9efebbe82e1e5000e54bf0666b26997550671f"
+    },
+    "workspaces/g1_kimodo/scripts/smoke_mujoco.py": {
+      "bytes": 2172,
+      "sha256": "21e4e7596e0050e2f865dcd40e89623f2d337ba0a49bea6364b346e3ba664de4"
+    },
+    "workspaces/g1_kimodo/scripts/smoke_official_generation.py": {
+      "bytes": 3798,
+      "sha256": "409ca610b88411c11862199a982608d8d87f04cc6387f3880e79b081c27165de"
+    },
+    "workspaces/g1_kimodo/scripts/smoke_qwen_generation.py": {
+      "bytes": 2673,
+      "sha256": "0891ff597537e8198ef094bc2c074b7faa91ab83a70b30f3c391f182a0515ae0"
+    },
+    "workspaces/g1_kimodo/scripts/track.py": {
+      "bytes": 15471,
+      "sha256": "f65e0816e6f2393d2432989f0edf2a4f1bdb17ab0e171dbbfa81c85b257c4b2d"
+    },
+    "workspaces/g1_kimodo/scripts/validate_g1_isaac.py": {
+      "bytes": 17668,
+      "sha256": "659f2c754c278ab9cede5b114f310db5b58c5be257b40d13e0f7739d74cc7255"
+    },
+    "workspaces/g1_kimodo/scripts/validate_reference_math.py": {
+      "bytes": 3484,
+      "sha256": "869244a7a3177469801f46f16e5b3a22b5ff164cc27b5deaad17eed6b9b82a6e"
+    },
+    "workspaces/g1_kimodo/scripts/validate_tracking_math.py": {
+      "bytes": 2246,
+      "sha256": "7e9c8d6d513e5a86296fa998d4aeeec59493a6d992565eea42ed0b81abd5b25d"
+    },
+    "workspaces/g1_kimodo/scripts/verify_frozen_balance.py": {
+      "bytes": 1788,
+      "sha256": "ddf1c4198250837af58bd43460bc79e442c3b3bac5c0af23b1b6844c46f38e21"
+    },
+    "workspaces/g1_kimodo/state/progress.json": {
+      "bytes": 4942,
+      "sha256": "1f5011bb04b1be86e7ff9bf7bb0e6728c0d1d5457ee3d63389241bfc6e118661"
+    },
+    "workspaces/g1_kimodo/tracking/core.py": {
+      "bytes": 1475,
+      "sha256": "2d1267b1e03340ce5df435aa0167e4e29f757666db6aeec2195b6ca9bfb4e014"
+    },
+    "workspaces/g1_kimodo/tracking/env.py": {
+      "bytes": 15704,
+      "sha256": "cbbe245e344750da2587d31a130158a0dbd17b36f6e5e0b98fc9f4b452589199"
+    },
+    "workspaces/g1_kimodo/tracking/initialize.py": {
+      "bytes": 4218,
+      "sha256": "2f28b9c3d70f39fa4f172bfe723f89a216b013543cdab1f42c8488f8b6e7ce97"
+    },
+    "workspaces/g1_kimodo/tracking/policy.py": {
+      "bytes": 1019,
+      "sha256": "1a2646843870fe25ef3040bcb0ba21c2e6111a0276feea376be42fab1bdd8abc"
+    },
+    "workspaces/k1_kimodo_hx5/STATUS.md": {
+      "bytes": 3225,
+      "sha256": "8ea309fe54adc5c916eaab145b22487bb6c078093de76dcf5a79684766cdc4f7"
+    },
+    "workspaces/k1_kimodo_hx5/assets/K1-LICENSE": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/head_link.stl": {
+      "bytes": 1039284,
+      "sha256": "6d196f828440d35f7e4399242aec5846545283420e34d64d4d0f33fe3cce3285"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_ankle_pitch_link.stl": {
+      "bytes": 520184,
+      "sha256": "b1efa32cbf8a291d3ca13f322e70ef68bf0197debb83d691d3664f6467e86f98"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_ankle_roll_link.stl": {
+      "bytes": 658284,
+      "sha256": "0333be77bdcbf917ca5026f11a54ea5fca379d1e29f3caa721127a2efca51c6a"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_elbow_link.stl": {
+      "bytes": 751284,
+      "sha256": "b63f229af7148a8d160e6d8c455149706829153c617916992e0090a81da9b19c"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_hip_pitch_link.stl": {
+      "bytes": 600184,
+      "sha256": "b69778982641977a5500071faf4485f1f46e0b72b851b16bd6d2681a18cfbb3c"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_hip_roll_link.stl": {
+      "bytes": 977584,
+      "sha256": "86da0d30e9a6870f3584d556866c83e22798596e005391a4d4f2aefefc821c12"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_hip_yaw_link.stl": {
+      "bytes": 787184,
+      "sha256": "11afb567363b4ae95b82e90dee2a3ba2cd911a0786cc76969832fc4340dfb295"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_knee_link.stl": {
+      "bytes": 1249484,
+      "sha256": "f91aa9d7340acd0c56030a7a8c05759560e29944b0991344e3c9af0e738ce649"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_shoulder_pitch_link.stl": {
+      "bytes": 661184,
+      "sha256": "07b973c6871a0b02b26640ec11b5c431bd1e6e2d23ae00455caee0d3f8faa6eb"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_shoulder_roll_link.stl": {
+      "bytes": 816784,
+      "sha256": "2668fe23649e84ce326c176112b50a0b8587d9918170e97c1b236e739e65e41a"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_shoulder_yaw_link.stl": {
+      "bytes": 720084,
+      "sha256": "f47a065cfc213a96255e59b74497fb7753c66168f0909141b734691c80b42abc"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/left_wrist_roll_rubber_hand.stl": {
+      "bytes": 3857684,
+      "sha256": "413cfa9702bf11b029f031ce850f7e5bc791630f426fa2ffaa369662741569fe"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/pelvis.stl": {
+      "bytes": 1786084,
+      "sha256": "7db6140be6301ed7298e1551428737a2616b00cbf4256af00f66067059e2807d"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_ankle_pitch_link.stl": {
+      "bytes": 602184,
+      "sha256": "3b21bd58ba5df5e4616d76f042c9d3560fd2a08077a23f53921e39b43bc9a943"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_ankle_roll_link.stl": {
+      "bytes": 673084,
+      "sha256": "fd57189d683e6e8d3f4d34fed2550c014db3c8fb6d8460cfe126940de505096d"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_elbow_link.stl": {
+      "bytes": 751284,
+      "sha256": "74942374f2a974b21234afe5d8713f08c89a8e858c218351c48c7aa7a96a12e7"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_hip_pitch_link.stl": {
+      "bytes": 708384,
+      "sha256": "03c86cdf41d3eccf18117509ea54c049caab160c00c76e6c7a30ad06185933e7"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_hip_roll_link.stl": {
+      "bytes": 1083784,
+      "sha256": "39ca6f3dc71509585101ba5fefc8580a9e4aa5d6fe39ebe80e4b3700b26a15e3"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_hip_yaw_link.stl": {
+      "bytes": 890984,
+      "sha256": "7c72104402dc62b71a0b4e57d7b816312b563d0734bd72a6a28ba384d18c535b"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_knee_link.stl": {
+      "bytes": 1331284,
+      "sha256": "b3a2052622b519bcae7e488e32a7089c4e4388368d61f36b10e12ea3b86d6ad5"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_shoulder_pitch_link.stl": {
+      "bytes": 661184,
+      "sha256": "d2410a526aedb5434fe61ccd2242525c9da35f886955bed6462ae9106555d603"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_shoulder_roll_link.stl": {
+      "bytes": 816784,
+      "sha256": "bdbd2cc1a3009901d86089dfd3a4ab16a39c0fe4e5697c9a6fc216aeb76cbd11"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_shoulder_yaw_link.stl": {
+      "bytes": 718884,
+      "sha256": "83e4006ff12969d0473fff96a1997fe73114463bdafda19b36d56a7ad0b0f2bc"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/right_wrist_roll_rubber_hand.stl": {
+      "bytes": 3857284,
+      "sha256": "414c270d909e185f75800abaa7e4e4599d3793c5ad15e70e8304289355e1d3db"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1/meshes/torso_link.stl": {
+      "bytes": 2051284,
+      "sha256": "7708aa90a9ff711b248076fa22b474e7054e459f649a51ad2bb41c0f846cd4f3"
+    },
+    "workspaces/k1_kimodo_hx5/assets/k1_hx5.xml": {
+      "bytes": 63877,
+      "sha256": "363eaabeb65345f74cf5065007ed753a0bc6dc0ea1f060f57c1476aa03a661bd"
+    },
+    "workspaces/k1_kimodo_hx5/assets/neutral_qpos.npy": {
+      "bytes": 688,
+      "sha256": "ad2da8efe062e2235cf8d1fd6502c30bdc3a8bb36300e77ec815613dbda5bcd8"
+    },
+    "workspaces/k1_kimodo_hx5/assets/source/k1_local.urdf": {
+      "bytes": 29872,
+      "sha256": "fc65a54ac74e1073dc5610805d9b29369856df91c1e24954b1199c95ae084112"
+    },
+    "workspaces/k1_kimodo_hx5/configs/assembly.json": {
+      "bytes": 1192,
+      "sha256": "0722b46bb954f0e74444906f83b52f51db234d0bf9aca09c0b1273c751f83841"
+    },
+    "workspaces/k1_kimodo_hx5/configs/evaluation.json": {
+      "bytes": 841,
+      "sha256": "fffc4bd4b79d6139f0cd237b1183f556e5daa6d4e9ce3a581c0cbcf794bc1d02"
+    },
+    "workspaces/k1_kimodo_hx5/configs/pistol_aim_001.json": {
+      "bytes": 490,
+      "sha256": "1064663e4b849f6e9f0a490e9675616e61dbf8d7b268aa91d17771dea3874a64"
+    },
+    "workspaces/k1_kimodo_hx5/configs/pistol_aim_002.json": {
+      "bytes": 608,
+      "sha256": "9567178cd2c575f921def042d2c4348b2fc8d09940acf8739e45164273884b0f"
+    },
+    "workspaces/k1_kimodo_hx5/configs/salute_001.json": {
+      "bytes": 499,
+      "sha256": "04e957da4ba1c24b0939de37e31d0205095ebf6e8406322b7f61dc20911ce8fb"
+    },
+    "workspaces/k1_kimodo_hx5/configs/salute_stabilization.json": {
+      "bytes": 1152,
+      "sha256": "d93f7b08e5aa90efe45c1cf90cf7f9bd037944f25559d4dbd7561e2537cc6db7"
+    },
+    "workspaces/k1_kimodo_hx5/configs/walking/conservative_feedback.json": {
+      "bytes": 73,
+      "sha256": "af781e0c047de124687f0212a8d15e3e0b8aacdc19431aff87550bae576c9c08"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v2/manifest.json": {
+      "bytes": 1803,
+      "sha256": "1d1ab90b82f2a9662f18eaf8f6fe276779aa003060659e17322964e33ce05776"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v2/reference.npz": {
+      "bytes": 71198,
+      "sha256": "48a33059263d9f2ae90afa5897116d9b3a26a2e7444fa744b20ffe7e0f119dfb"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v2/solver_source.py": {
+      "bytes": 4335,
+      "sha256": "9bca2c0cb9fe02dda38bfdf50d3c765d2a96c4774c48cc59456c39a130d66ef5"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v4/manifest.json": {
+      "bytes": 1639,
+      "sha256": "dedc193fd1883b787b243516960b543bc5b224d4e4840a78398e2173971ad576"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v4/reference.npz": {
+      "bytes": 71187,
+      "sha256": "e9ba6b1630940b9b2ad7249b35a2430d0a34532186d83a4d0722d8dcc2ea7494"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v4/solver_source.py": {
+      "bytes": 5515,
+      "sha256": "9f11343bfe1ffa1448b3680f44036a97bbdf22e005e0a1154da9e8aa86af1612"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v6/manifest.json": {
+      "bytes": 933,
+      "sha256": "c1d7b3215360fd9a03417109d5664062c13962b7fc381b793aa8a7ddeb8548e3"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_arm_clearance_v6/reference.npz": {
+      "bytes": 70958,
+      "sha256": "99d6bbfafb0ff440f83f80bd2dac000dacf14dc65a83685f231eb9d0eb34877b"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v1/manifest.json": {
+      "bytes": 49580,
+      "sha256": "9b60ea8d0404cfc4b812f2830bc7f2079ea11e618cc6a713fffe4e9367292202"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v1/reference.npz": {
+      "bytes": 70511,
+      "sha256": "5ed4ef0ee91c4140988c1241e76a685f6491b63b43a4eaa66ddd78625c89efcf"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v6/manifest.json": {
+      "bytes": 49588,
+      "sha256": "b2433240a62b8176b07689bede7d6d1030e9dbf848ace5fd5f5cca99bb0c076a"
+    },
+    "workspaces/k1_kimodo_hx5/data/conditioned/salute_standing_v6/reference.npz": {
+      "bytes": 70906,
+      "sha256": "698dfbe27fc584efe030e404c15e4a8f4c60ed7642939462cc33303e6f4d1173"
+    },
+    "workspaces/k1_kimodo_hx5/data/custom/salute_001/manifest.json": {
+      "bytes": 38640,
+      "sha256": "e72b807a381c1b0aff60e624a305cc055fdcc870b5696cf0d3293d38c5f77520"
+    },
+    "workspaces/k1_kimodo_hx5/data/custom/salute_001/reference.npz": {
+      "bytes": 128519,
+      "sha256": "59c84968681d1263acc50ac4953c6eaa1bdad7e8b22afd89074478610fe862fe"
+    },
+    "workspaces/k1_kimodo_hx5/data/dataset.json": {
+      "bytes": 9427,
+      "sha256": "b42ea06de0f5fbf32c97dad95e20856b2478a2ff9b7a57e64a4aff24f65e0f6a"
+    },
+    "workspaces/k1_kimodo_hx5/data/stand_validation_101/manifest.json": {
+      "bytes": 40654,
+      "sha256": "adaf1cdec70a98b8066a8733f1a775f2ad085fc1a8fed2af85892b90148a52ae"
+    },
+    "workspaces/k1_kimodo_hx5/data/stand_validation_101/reference.npz": {
+      "bytes": 79525,
+      "sha256": "97b8ae7dfbf5227e6ebff778b67333189d86e1ff5ae2fe125ac7ca3c9b1869c3"
+    },
+    "workspaces/k1_kimodo_hx5/data/user_input/salute_001/generation_manifest.json": {
+      "bytes": 2782,
+      "sha256": "2225600a5d0c7048ce124210203a3374cd1088138094596d437edadcc387ea3c"
+    },
+    "workspaces/k1_kimodo_hx5/data/user_input/salute_001/source_G1.csv": {
+      "bytes": 164696,
+      "sha256": "3b32db386a02d301c15d99ecb57189b918a10e4649de7dc4ffe396d0ae8ef3a1"
+    },
+    "workspaces/k1_kimodo_hx5/data/walk_v4/manifest.json": {
+      "bytes": 2383,
+      "sha256": "d955d92731942377415915dea1da1a3e994c379525dfe3208c7cb59f74e1be73"
+    },
+    "workspaces/k1_kimodo_hx5/data/walk_v4/reference.npz": {
+      "bytes": 211283,
+      "sha256": "172d989f9ca68801fbda6dd910c5698609ee94c50c3607717091212f9b506b09"
+    },
+    "workspaces/k1_kimodo_hx5/data/walk_v4_validation202/manifest.json": {
+      "bytes": 2673,
+      "sha256": "10a62bf91ec43960e66bbba7b812010f2464b11b1f1fafb6093ac18d9fc3fc0c"
+    },
+    "workspaces/k1_kimodo_hx5/data/walk_v4_validation202/reference.npz": {
+      "bytes": 249550,
+      "sha256": "0f5801a5bf68c1b83818bfbf7342a7f65ae7ff2105eb8119bc999145b73e2c89"
+    },
+    "workspaces/k1_kimodo_hx5/data/wave_validation_101/manifest.json": {
+      "bytes": 46849,
+      "sha256": "1096c503c94b3b7bca2ab73435ecc9c8e4e6334289f37eec9fb9997fd3bc55f3"
+    },
+    "workspaces/k1_kimodo_hx5/data/wave_validation_101/reference.npz": {
+      "bytes": 99135,
+      "sha256": "2afda35c5f557c1a47b25341368317cc12da75aca1da995d221877fb20b82eef"
+    },
+    "workspaces/k1_kimodo_hx5/reports/dataset_salute_standing_v6.json": {
+      "bytes": 1119,
+      "sha256": "e35e29a975c26f4969eeb255cd3cb298f62df447d5300e4ec169378809b26346"
+    },
+    "workspaces/k1_kimodo_hx5/reports/pistol_aim.md": {
+      "bytes": 4472,
+      "sha256": "4874588199831795413fb45915378055a22f79d81af5450e740d7bdfbd69330e"
+    },
+    "workspaces/k1_kimodo_hx5/reports/robot_manifest.json": {
+      "bytes": 6164,
+      "sha256": "b75e8084c6032a61d8993aa6bd1db9b3127846de94cc9079c7b61ffbc55c1df8"
+    },
+    "workspaces/k1_kimodo_hx5/reports/robot_validation.json": {
+      "bytes": 636,
+      "sha256": "30baf5b9f24219f84886a4cfa2621af9adac571bd07f1ac1f2d5e69b81d623fc"
+    },
+    "workspaces/k1_kimodo_hx5/reports/salute_improvement.md": {
+      "bytes": 7245,
+      "sha256": "da93bad34608d4a1181e365e8958ecfb19e6a39d5e31e6208a0201a65df059e1"
+    },
+    "workspaces/k1_kimodo_hx5/reports/walking_improvement.md": {
+      "bytes": 7180,
+      "sha256": "829048b3e2b19da32907a6d6b01aea268f471397fb08b759fc193d0eb405e468"
+    },
+    "workspaces/k1_kimodo_hx5/requirements/walking_solver.txt": {
+      "bytes": 151,
+      "sha256": "b564e8408bb6e3b2c4f288f79827aa407975597787d4dca2fda2757fef9a26e1"
+    },
+    "workspaces/k1_kimodo_hx5/run.sh": {
+      "bytes": 1425,
+      "sha256": "d93edf2de82b1e1dfdf97150080e73af6da35a3b4cb8538a14cef8c8c85ac859"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/assess.py": {
+      "bytes": 4406,
+      "sha256": "76ec7004cd66b47dc42869dd156afe680b11a52004a7dbd5ffe834894934653c"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/audit_standing_motion.py": {
+      "bytes": 3250,
+      "sha256": "be6efa7d15c90a152185e2858ef435ef589a898703c086209e29c6b4724fcdf2"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/clear_arm_collisions.py": {
+      "bytes": 6156,
+      "sha256": "1e18342d5cc87538d35ba5a6fc9d6e4dfdb842289e3bd6f6b31a156608aeafd4"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/condition_standing.py": {
+      "bytes": 6363,
+      "sha256": "b3d25c003795af506bf1e4425de88e431311e532e487253ff2789889758e6632"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/evaluate.py": {
+      "bytes": 13172,
+      "sha256": "66ba48f732d761804984ad92a3d14f45c141ca0d3d35667a896d41a6a36b177e"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/finalize_walking.py": {
+      "bytes": 6156,
+      "sha256": "e0e28a59d3902e6d6ada1fa15d4c231bc245f02de8b07f34cbec8e3a500e196a"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/generate_motion.py": {
+      "bytes": 4467,
+      "sha256": "ff8cdffb11ff12b65eaa16d6f709a2e814fd59a087e2ee94a9c7d0342f67b9b8"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/improve_walk.py": {
+      "bytes": 7298,
+      "sha256": "d4bc988df8c1a75536976c6620f6cd794eb16261b106f7b4586b12b4a50abd5c"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/prepare_robot.py": {
+      "bytes": 8955,
+      "sha256": "a3e66fd51e11593016c958e161a9c2b88f361453efcd80d0f39b7cdf0f43d58d"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/process_motion.py": {
+      "bytes": 3830,
+      "sha256": "255b137466aae0b71fe7201d12e0a83bbf03468daa6fa2c5f46b86caf1d7fd34"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/retarget.py": {
+      "bytes": 11416,
+      "sha256": "1e56b374962ee1e30c33a96a635422e2649b614a7743955877fd63937ba4188c"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/review.py": {
+      "bytes": 5439,
+      "sha256": "12950f851489a7aeb3d5fea4ac38335e951cb5bb05a56f4a8d9d371fe8d84007"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/validate_robot.py": {
+      "bytes": 3690,
+      "sha256": "54e8e790d252b8d3ed410046a3bd28cdedec25da9bce8460fc35255c4b95129f"
+    },
+    "workspaces/k1_kimodo_hx5/scripts/walk_wbc.py": {
+      "bytes": 4769,
+      "sha256": "45014faab4feeac1de214e1e0e7a1dd8bf084efc60161f4af649959683db2ad4"
+    },
+    "workspaces/k1_kimodo_hx5/target.json": {
+      "bytes": 2058,
+      "sha256": "057397c4814feb856400b0cdde71072592d4d30aeb4173e42630dc0e386f5e33"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/LICENSE": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/collision/hx5_d20_base_collision_00.stl": {
+      "bytes": 88684,
+      "sha256": "a0ba7e897eb63ec80c39120c7e718d2d45854ef89818391519ca50c390f60be8"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/collision/hx5_d20_base_collision_01.stl": {
+      "bytes": 349284,
+      "sha256": "1aadaa1a187164cf0074774fa9cf2c843959c9729cf0a4f4d8d3e11328b56bac"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_base_unit.stl": {
+      "bytes": 6610784,
+      "sha256": "23f3752baec69ba9641a2152d4ec8f60fb09c9510141c978ed77756bcaf6ca64"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_finger_dip.stl": {
+      "bytes": 456084,
+      "sha256": "e582ee3126bd9b6e7c3ca1a8ac415be56c2395c70eeb6f6e339c23feccf09495"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_finger_mcp.stl": {
+      "bytes": 493284,
+      "sha256": "b3913fed373aae024fad967b4ce591d7eb0ea589f36b49bcc1be17120546e07c"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_finger_pip.stl": {
+      "bytes": 456084,
+      "sha256": "d7f9d330496c0f32e066248bf8a81b1da8b22a250b710bbf0fc9738ff16dd307"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_finger_tip.stl": {
+      "bytes": 225884,
+      "sha256": "e23344be5dc686cdfcc9c3dfc3d187f0715bdbe971e655642e3cc8ff00ff6030"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_thumb_ip.stl": {
+      "bytes": 1518584,
+      "sha256": "cc0c0e8792f3a20f02faec5a14db94f2cd3165c5f43050c0f2302b760ec92fa6"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_thumb_mcp.stl": {
+      "bytes": 1442884,
+      "sha256": "a86a80ef87023e30cb0e4d587ce199cdf1ffe0400a669f831715867f1f8357d8"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_thumb_mcp2.stl": {
+      "bytes": 843484,
+      "sha256": "ea94099885281667e7084733da3f46c4909a23c8a17507ac7a02ad69d123b215"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_left/hx5_d20_thumb_tip.stl": {
+      "bytes": 1815084,
+      "sha256": "c3efebd7b37aecc8338f51463c226b048d415bb1378c521b8f34339ae1bd6f14"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/collision/hx5_d20_base_collision_00.stl": {
+      "bytes": 11184,
+      "sha256": "35ebcc3aee70daacd8d21b22cd539a5abfc93a0ed98c29a61e2dd72c9376a80b"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/collision/hx5_d20_base_collision_01.stl": {
+      "bytes": 34084,
+      "sha256": "838b402e4acc9e980d8429fae3cefeae0d9949fd5ddcdfee879f4287087ec8a1"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_base_unit.stl": {
+      "bytes": 2107884,
+      "sha256": "4ddee90cb3dd3a1c74da46b8e201715dc3061beb19e293ef0d87eed5547a2fa2"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_finger_dip.stl": {
+      "bytes": 456084,
+      "sha256": "e582ee3126bd9b6e7c3ca1a8ac415be56c2395c70eeb6f6e339c23feccf09495"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_finger_mcp.stl": {
+      "bytes": 493284,
+      "sha256": "b3913fed373aae024fad967b4ce591d7eb0ea589f36b49bcc1be17120546e07c"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_finger_pip.stl": {
+      "bytes": 456084,
+      "sha256": "d7f9d330496c0f32e066248bf8a81b1da8b22a250b710bbf0fc9738ff16dd307"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_finger_tip.stl": {
+      "bytes": 225884,
+      "sha256": "e23344be5dc686cdfcc9c3dfc3d187f0715bdbe971e655642e3cc8ff00ff6030"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_thumb_ip.stl": {
+      "bytes": 866184,
+      "sha256": "fa2759b28c8fd8fd3ef3fbeb6e280e6bb23f0cdcbfd6f0463261a0babad31b79"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_thumb_mcp.stl": {
+      "bytes": 948484,
+      "sha256": "b050d0c2c8a3f7cac6e03dd8be2aa95cc3418617ebb686d61e672b39cb25cc51"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_thumb_mcp2.stl": {
+      "bytes": 480684,
+      "sha256": "72d2ae2396f7edffab447cb90b81a7ba52913df6196c74d20fd49851c370a119"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/meshes/hx5_d20_rev2/hx5_d20_right/hx5_d20_thumb_tip.stl": {
+      "bytes": 873184,
+      "sha256": "c94412c121cfdd6a98d0857010cd0d603415d832f05dbf369347f74f97b515d5"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_left.xml": {
+      "bytes": 17554,
+      "sha256": "740dd652f7b27e40a60dca3cde2358a8b193a963c999c4b2502c6a25cbce5968"
+    },
+    "workspaces/k1_kimodo_hx5/third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_right.xml": {
+      "bytes": 17707,
+      "sha256": "e6de4c63ff62d3e1ba2dac7b32bc0bb290714f051a3a17b347fe8df4660a2252"
+    }
+  }
+}

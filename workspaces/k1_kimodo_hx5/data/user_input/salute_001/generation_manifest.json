@@ -1,0 +1,49 @@
+{
+  "config": {
+    "label": "salute_001",
+    "prompt": "A person stands upright at attention with both feet planted still on the ground. The person raises the right hand to the right eyebrow in a formal salute, holds the salute briefly, then lowers the right arm back to the side. The left arm stays down at the side. The torso stays upright and still throughout.",
+    "seed": 73112,
+    "duration_s": 6.0,
+    "diffusion_steps": 100,
+    "scope": "right_hand_salute_whole_body_animation; fingers_hold_existing_targets"
+  },
+  "sanitized_prompt": "A person stands upright at attention with both feet planted still on the ground. The person raises the right hand to the right eyebrow in a formal salute, holds the salute briefly, then lowers the right arm back to the side. The left arm stays down at the side. The torso stays upright and still throughout.",
+  "status": "generated",
+  "generator": "Kimodo-G1-RP-v1",
+  "encoder": "pinned_official_LLM2Vec_Llama3_CPU",
+  "source_revisions": {
+    "isaaclab_checkout": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "kimodo_inspected_commit": "e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "protomotions_inspected_commit": "f69fdcaabff31846b4d2247207417b57dc788828",
+    "kimodo_installed_commit": "e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "kimodo_model_revision": "3020ad8c419c244e0429d360163730c63c4ed011",
+    "robot_asset_revision": "kimodo:e1c219c99b4b94ba48be1fb6a1cbc64ecee4c954",
+    "unitree_velocity_reference_revision": "7c40519e02d7dd16c06b25fe3fa3b67fdeb7cd74",
+    "official_encoder_base_revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+    "official_encoder_mntp_revision": "31474e395ada192e8ed1586db6be79fb3b70c9c0",
+    "official_encoder_supervised_revision": "baa8ebf04a1c2500e61288e7dad65e8ae42601a7"
+  },
+  "generator_weights_sha256": "e18c1de73e2ce17a107b06d85155fbbc5debe68eb35455aa5b033e6ddbe056a5",
+  "script_sha256": "ff8cdffb11ff12b65eaa16d6f709a2e814fd59a087e2ee94a9c7d0342f67b9b8",
+  "config_sha256": "04e957da4ba1c24b0939de37e31d0205095ebf6e8406322b7f61dc20911ce8fb",
+  "official_encoder_checkpoint.json_sha256": "681f05fd5dd3058430e2d1b6e566b73aeb0b42f82b20bb22a0cae8a6fe730527",
+  "kimodo_checkpoint.json_sha256": "aac3e66cd2afdd1f559882fb409575341415ed10d33036c240fb956f2fbc9bcb",
+  "fps": 30,
+  "frames": 180,
+  "checks": {
+    "shape": true,
+    "finite": true,
+    "normalized_quaternions": true
+  },
+  "elapsed_s": 24.457721797996783,
+  "artifacts": {
+    "motion.npz": {
+      "path": "data/generated/salute_001/motion.npz",
+      "sha256": "cec463f3d3a7e009326ed594b0c8895daa71865de83a6b746b4d71e8e2e76e48"
+    },
+    "qpos.csv": {
+      "path": "data/generated/salute_001/qpos.csv",
+      "sha256": "3b32db386a02d301c15d99ecb57189b918a10e4649de7dc4ffe396d0ae8ef3a1"
+    }
+  }
+}

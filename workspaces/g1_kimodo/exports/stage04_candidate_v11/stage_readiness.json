@@ -1,0 +1,1176 @@
+{
+  "scope": "stage_4_gate_not_MuJoCo_sim2sim",
+  "evaluation_run": "runs/20261021_130836_931130_stage04_multimotion_eval_v11",
+  "checks": {
+    "contact_and_hold_fixture": true,
+    "nominal_physics_logs_clean": true,
+    "learned_policy_evaluation_not_teacher": true,
+    "stage3_ready": true,
+    "all_three_motion_ids": true,
+    "all_validation_clips": true,
+    "unique_explicit_reset_cases": true,
+    "all_requested_seeds": true,
+    "nominal_90_percent_each_motion": false,
+    "same_policy_checkpoint_export": true,
+    "export_fixture_parity": true,
+    "export_checksum": true,
+    "evaluation_thresholds_unchanged": true,
+    "policy_training_finite_and_updated": true,
+    "state_only_written_in_reset": true,
+    "all_episode_traces_saved": true,
+    "independent_episode_rmse_and_saturation": true,
+    "base_balance_weights_preserved": true,
+    "no_nulls_in_export_contract": true,
+    "controller_matches_training_checkpoint": true,
+    "observed_joint_permutation_correct": true
+  },
+  "passed": false,
+  "success_rates": {
+    "stand": 1.0,
+    "wave": 1.0,
+    "walk_slow": 0.0
+  },
+  "independent_recomputation": [
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.07873960345082316,
+        0.11549872344434467,
+        0.3033934269877225,
+        0.30167140547887883,
+        0.002255639097744361
+      ],
+      "reported_absolute_difference": [
+        2.3931976816937706e-09,
+        1.3056395381516595e-08,
+        3.4304409868290975e-09,
+        4.9516125533166644e-08,
+        3.6412612074848694e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.07768697092154944,
+        0.11572586428056918,
+        0.3007398232311433,
+        0.2983929710175318,
+        0.0018002028397565923
+      ],
+      "reported_absolute_difference": [
+        5.456003787651653e-09,
+        1.0620248694359624e-08,
+        1.5407378151088835e-09,
+        1.952903694313335e-08,
+        4.122944260304129e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.07749603209074547,
+        0.11736002717201591,
+        0.30514648323475263,
+        0.3040132385971359,
+        0.0016108733954190789
+      ],
+      "reported_absolute_difference": [
+        2.6541571856997237e-09,
+        5.922867057917003e-09,
+        2.332340265365218e-09,
+        1.949550918478593e-07,
+        1.1949199225577689e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.07764008711599482,
+        0.11495796417745043,
+        0.2963259466110194,
+        0.29504326655773266,
+        0.0016741629185407297
+      ],
+      "reported_absolute_difference": [
+        7.035650118059067e-10,
+        1.66341454915786e-08,
+        5.2036320807857805e-09,
+        6.698647581071526e-09,
+        3.886328541966022e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.07910775814390587,
+        0.11465853092766988,
+        0.2997059211799571,
+        0.29706344896751696,
+        0.0022488755622188904
+      ],
+      "reported_absolute_difference": [
+        4.211429829870106e-09,
+        3.340147745889421e-08,
+        1.4236500867070845e-09,
+        3.86853819533961e-08,
+        1.745357330884545e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.08043396448198759,
+        0.11393776543978772,
+        0.2882872297373888,
+        0.28589561282065956,
+        0.0015876953609526173
+      ],
+      "reported_absolute_difference": [
+        7.203259100307946e-09,
+        2.2271832614273457e-08,
+        2.245034008696578e-08,
+        8.64115103915708e-08,
+        3.522783670675822e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.08437213460018693,
+        0.11711533063944995,
+        0.29944042014960787,
+        0.2963920934892135,
+        0.0022575043413545024
+      ],
+      "reported_absolute_difference": [
+        1.583600625632009e-09,
+        1.048746883780538e-08,
+        2.336616972131722e-08,
+        6.992582851639284e-08,
+        7.37364422992437e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.08219737802265198,
+        0.11553527797367034,
+        0.29220004013017037,
+        0.2904217745706114,
+        0.0017487684729064039
+      ],
+      "reported_absolute_difference": [
+        2.427082368416933e-09,
+        3.624897618181855e-09,
+        1.1233838581592437e-08,
+        9.353491370323042e-09,
+        2.342069832343696e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.08080398363494377,
+        0.11238324597465095,
+        0.28002902331154783,
+        0.2777212723753998,
+        0.0019320127170457323
+      ],
+      "reported_absolute_difference": [
+        7.214496638985324e-10,
+        7.897743611873231e-09,
+        2.4459771708063016e-08,
+        7.596235962470388e-08,
+        1.5094987542915717e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_101",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.08175076509588562,
+        0.11365086751821697,
+        0.28532179065907404,
+        0.28272249980029535,
+        0.001834189288334556
+      ],
+      "reported_absolute_difference": [
+        7.1036180132599824e-09,
+        2.068635761298676e-08,
+        1.1241789610316744e-08,
+        3.1465582917000745e-09,
+        1.879044012401132e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.0737927744952417,
+        0.12115388715414462,
+        0.2912677778373241,
+        0.2825691016392243,
+        0.0013113161728994657
+      ],
+      "reported_absolute_difference": [
+        3.990290223243598e-09,
+        1.1383014350552223e-08,
+        4.6123981856105445e-09,
+        2.104802249158766e-08,
+        1.800225268334954e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.07395002602021115,
+        0.12156856017355118,
+        0.29422329038073936,
+        0.28645190201457466,
+        0.0013355998057309373
+      ],
+      "reported_absolute_difference": [
+        3.889399594059206e-09,
+        1.4474431611621874e-08,
+        1.1619829320963504e-08,
+        8.545573676466134e-08,
+        3.2227651537014568e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.07335767231891147,
+        0.12207730340004605,
+        0.28846611603381533,
+        0.27877589600635516,
+        0.0011898980087421077
+      ],
+      "reported_absolute_difference": [
+        8.196591461118174e-10,
+        2.4607187926184437e-08,
+        2.0109437892656956e-08,
+        3.439830792428822e-08,
+        7.712020258510144e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.07394748815074556,
+        0.1222518885351359,
+        0.2945463253641442,
+        0.28571047830656926,
+        0.0013841670713938806
+      ],
+      "reported_absolute_difference": [
+        1.1108816366789398e-09,
+        9.515172330609722e-09,
+        1.0571448438856379e-08,
+        5.412177006558494e-08,
+        4.567280082780345e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.07330306922604947,
+        0.11982242983378133,
+        0.2870104679127483,
+        0.2781275804601347,
+        0.0011413307430791647
+      ],
+      "reported_absolute_difference": [
+        3.0319920046872895e-09,
+        2.203356830321468e-09,
+        6.820753073455421e-09,
+        5.918366069446179e-08,
+        5.016205614945257e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.07362300570910918,
+        0.12220302347841808,
+        0.29253985292851414,
+        0.28391141814205484,
+        0.0011333494092114781
+      ],
+      "reported_absolute_difference": [
+        1.0767521985144413e-08,
+        1.3664335524188331e-08,
+        1.1850004533187075e-08,
+        4.095051125974081e-08,
+        3.434350243428086e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.07415580010942766,
+        0.12322490761889807,
+        0.2944816132134541,
+        0.2858299323566353,
+        0.0012298046780805402
+      ],
+      "reported_absolute_difference": [
+        6.489106474383277e-11,
+        8.446115168370127e-09,
+        7.922087541523126e-09,
+        6.046370620849117e-08,
+        2.961053320940654e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.07355731954768975,
+        0.12234540051248248,
+        0.2935245832171262,
+        0.2850608655563826,
+        0.0011092355919942126
+      ],
+      "reported_absolute_difference": [
+        9.741342857361168e-09,
+        5.126263455390578e-09,
+        9.897726693797182e-09,
+        7.239499039135566e-08,
+        2.1228180888469006e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.07326442200336192,
+        0.12023629242498889,
+        0.2887458995574809,
+        0.2808643033515535,
+        0.0008680974198215578
+      ],
+      "reported_absolute_difference": [
+        1.970860696864918e-09,
+        1.495759473224556e-08,
+        1.0371794589847383e-08,
+        5.007895043096511e-09,
+        6.4902875825459394e-12
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "walk_slow_validation_202",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.07326181280492126,
+        0.11888864329722033,
+        0.281964789226425,
+        0.2738775593986411,
+        0.0008922112370388232
+      ],
+      "reported_absolute_difference": [
+        4.756289667673386e-10,
+        4.3835888946519574e-09,
+        1.032627849895107e-08,
+        6.12983803716105e-08,
+        1.9605609019937575e-11
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.006692293061467309,
+        0.0025344049655189878,
+        0.0032073922825503164,
+        0.005328369276960113,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.85917235667943e-11,
+        3.5027443445311696e-08,
+        1.7937506455872887e-08,
+        2.063378796790874e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.006261871346488237,
+        0.0030995914814087814,
+        0.002895946932984931,
+        0.005890803659608923,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.1550264397578465e-10,
+        8.15922648368661e-09,
+        1.1322991507519559e-08,
+        1.5388588014975113e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.006627217188578815,
+        0.002523859457332581,
+        0.003840277683595618,
+        0.004325897792739059,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        6.77901535253711e-10,
+        1.1834535687798436e-08,
+        1.7681484619329335e-08,
+        2.320051070200252e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.0063563517061645276,
+        0.003044135198094385,
+        0.00360302501651517,
+        0.005650742247648076,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.6294663014726485e-10,
+        7.1897129842561636e-09,
+        1.2895883406711245e-08,
+        1.1102487938036143e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.006962637013175977,
+        0.0031994611643806794,
+        0.004196565268387082,
+        0.005331986334986306,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.274801376936589e-10,
+        9.996388783146265e-09,
+        1.5696684834733132e-08,
+        2.0607107200504293e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.006733497235133787,
+        0.003209671333994202,
+        0.0025837134369543317,
+        0.006277174272179415,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.6959395786906324e-10,
+        1.1080313988380552e-08,
+        1.5899083900122735e-08,
+        1.7457401771305697e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.006892939791514024,
+        0.0029436683462635634,
+        0.003767992455546752,
+        0.00507345118917371,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.379878906791366e-10,
+        1.8923886215427982e-08,
+        1.5979598268298784e-08,
+        1.4320589755787566e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.006368894238014758,
+        0.003134414173022981,
+        0.0033541793932352843,
+        0.005908279775411923,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.736845139561741e-10,
+        2.8790097189937414e-09,
+        1.2852516335058739e-08,
+        1.6055744783173564e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.006500185723151843,
+        0.0023514530450953215,
+        0.0027598945383982727,
+        0.0049698489901361005,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        6.754735304079218e-10,
+        8.36485159090572e-09,
+        2.1936644428038887e-08,
+        1.6231120257212406e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.006076822335811729,
+        0.003159811477075817,
+        0.002838159577107741,
+        0.005514689348001701,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.5155223659298342e-09,
+        1.4657984973801691e-08,
+        1.3372742818044264e-08,
+        1.3029266454547134e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.006867508443912173,
+        0.0026192888603294036,
+        0.003582743066737699,
+        0.005702297352735483,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.2883511535329304e-09,
+        2.8869577660319695e-08,
+        1.436527605116339e-08,
+        9.344842604504938e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.006489960940197324,
+        0.0033524019622809603,
+        0.005035228388034151,
+        0.0056291396721661795,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.399203921129133e-09,
+        1.8112138600555328e-08,
+        6.2271725675272505e-09,
+        9.015282385459872e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.006720871099354083,
+        0.0026625877994625024,
+        0.0029513005859774545,
+        0.004467207852363471,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        9.956831279606115e-11,
+        2.317163628855201e-08,
+        2.0140447001132378e-08,
+        1.7843434226092608e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.0062337812640768184,
+        0.00307482288551037,
+        0.003956325989464483,
+        0.0051255009759851086,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.1207979776792794e-10,
+        1.577061121147208e-08,
+        9.607275763129364e-09,
+        1.310679427993927e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.007245767424895194,
+        0.0038102730892753843,
+        0.00406093677877389,
+        0.005360360035887682,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        9.023707839977968e-10,
+        2.4895959850959604e-09,
+        1.661107934883277e-08,
+        1.226903584361852e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.006862028178131407,
+        0.0033606067197446223,
+        0.002455215154045709,
+        0.005506646011540312,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.186441594616284e-09,
+        2.4457457244771857e-08,
+        1.5415421239419608e-08,
+        1.5773572621929216e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.006617695147634159,
+        0.0025447279592138937,
+        0.003557874569313274,
+        0.005028314282682332,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.447925183893476e-11,
+        2.9886616509291336e-08,
+        1.7714111461095833e-08,
+        1.6498422941279428e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.006212268398677219,
+        0.0029831873691480797,
+        0.002345684939966864,
+        0.005590504098607532,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.573283544738072e-10,
+        7.423412245154137e-10,
+        1.5808297925464648e-08,
+        1.5360497093979547e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_101",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.006600378303460505,
+        0.003053508220881657,
+        0.002860329222045539,
+        0.005413798075356323,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.222579975966199e-10,
+        1.5587255792082894e-08,
+        1.9682459832977284e-08,
+        1.0391678587767794e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "stand_validation_202",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.006233855953387872,
+        0.0031441940710526246,
+        0.0032093318273272594,
+        0.005233989909969927,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.370865739316109e-10,
+        1.9160227821436032e-08,
+        9.490087978045875e-09,
+        1.5890902960169484e-07,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.035884506798935935,
+        0.015018444868670213,
+        0.006061184022036648,
+        0.036042503960431856,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        7.249070212156372e-09,
+        2.6647998583803623e-08,
+        1.1990045076584743e-09,
+        7.828324909836537e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1000,
+      "values_joint_body_root_hand_saturation": [
+        0.042178659899464364,
+        0.017679695545990262,
+        0.006417553716619197,
+        0.04063220926408634,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        7.317154451791374e-10,
+        1.9983093943465313e-08,
+        7.605831441222233e-09,
+        2.7484847453518313e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.03603326196709953,
+        0.015103240718544776,
+        0.0075555480742976995,
+        0.03635779861490383,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        3.3255449713442964e-09,
+        4.877747351861306e-09,
+        1.8352792592948863e-09,
+        3.6320284460544805e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1001,
+      "values_joint_body_root_hand_saturation": [
+        0.04220577053826411,
+        0.017664594285793013,
+        0.0062680354994676364,
+        0.04052282543604247,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.7557079049223e-09,
+        5.297965711970054e-09,
+        1.0831192945141843e-08,
+        1.8163276986615795e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.03594748028691877,
+        0.015194017404313264,
+        0.0075317181893613475,
+        0.036450462719441606,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.2155138146008326e-08,
+        1.0280315699412457e-08,
+        1.7010595935312844e-09,
+        5.3713082120987465e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1002,
+      "values_joint_body_root_hand_saturation": [
+        0.04221812953965491,
+        0.017702939376292002,
+        0.006150448330674831,
+        0.040608772411360516,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.422371024410566e-10,
+        3.3378031137620834e-09,
+        8.280392226056588e-09,
+        2.8536305651805094e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.03605732323102938,
+        0.015156639067900672,
+        0.007867896350267217,
+        0.036523398189005414,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.1189508306030937e-08,
+        3.984642520452053e-09,
+        3.522065139538455e-10,
+        4.825169130223683e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1003,
+      "values_joint_body_root_hand_saturation": [
+        0.04220566760704504,
+        0.01766410269005876,
+        0.0061122807696719315,
+        0.040571495180311765,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.3464916815152392e-09,
+        5.735320038335878e-09,
+        8.37964223357468e-09,
+        3.051262799369514e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.035836314437167484,
+        0.015103323269279075,
+        0.006184616054822824,
+        0.03624061285137399,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.933268230895461e-09,
+        1.7810969281037425e-08,
+        3.943640206061083e-10,
+        3.935218588491107e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1004,
+      "values_joint_body_root_hand_saturation": [
+        0.042165442604195295,
+        0.017730792025616032,
+        0.006110290353304161,
+        0.040698709148466065,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.0478865324070608e-08,
+        1.580505595843995e-08,
+        6.6970229015139715e-09,
+        5.4058437795601044e-09,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.035866256427359106,
+        0.015073970469381654,
+        0.005583988694508858,
+        0.03603706446985074,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.0799955846296783e-08,
+        1.3460669672643588e-08,
+        2.737740797953414e-10,
+        4.1597091472722614e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1005,
+      "values_joint_body_root_hand_saturation": [
+        0.042188823318152754,
+        0.01780089748567729,
+        0.007261879579063705,
+        0.04083678451507714,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        9.503874076610686e-11,
+        1.316434531176136e-08,
+        6.216678568628231e-09,
+        7.924145194182497e-09,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.03587174773332527,
+        0.015120285030716663,
+        0.00681429648606711,
+        0.03628371188671147,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        7.302731780400862e-09,
+        1.450229286659166e-08,
+        8.025891245003192e-10,
+        4.565089190694538e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1006,
+      "values_joint_body_root_hand_saturation": [
+        0.04219410632428044,
+        0.01775632215376251,
+        0.006409383604240415,
+        0.04066031156760367,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        8.090103802149695e-09,
+        1.6176258839373236e-09,
+        5.362617972078099e-09,
+        4.739779321111248e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.036014521796362095,
+        0.01524396192475738,
+        0.007260339691039825,
+        0.03636938194431731,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.286081142252819e-09,
+        5.1055807064742664e-09,
+        2.6847391376011442e-09,
+        4.609427979584968e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1007,
+      "values_joint_body_root_hand_saturation": [
+        0.042275011485401075,
+        0.01772305169446377,
+        0.005777339585017558,
+        0.04049685527830704,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        5.405815378667356e-11,
+        1.1039208453605953e-08,
+        7.78223932171307e-09,
+        1.1871761240733747e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.03587488570310759,
+        0.015009242538402702,
+        0.0068314819629189975,
+        0.036103270400202385,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        1.1275021957746212e-09,
+        4.228164528566336e-09,
+        8.414385325658524e-10,
+        6.387766588594745e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1008,
+      "values_joint_body_root_hand_saturation": [
+        0.04217280701324518,
+        0.017650295650129467,
+        0.006114635597879743,
+        0.040578736995035586,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        2.538414554942303e-09,
+        3.1241129336279094e-09,
+        6.537919187803165e-09,
+        4.183811527780357e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_101",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.0358679530369843,
+        0.015220826724960336,
+        0.005595588864864941,
+        0.03621207608617975,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        6.223956253159635e-09,
+        7.683827409413202e-09,
+        1.2052377420732063e-09,
+        2.5492532716719918e-08,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "clip_id": "wave_validation_202",
+      "evaluation_seed": 1009,
+      "values_joint_body_root_hand_saturation": [
+        0.04217630609062921,
+        0.017763654479039482,
+        0.006343002194234634,
+        0.04064612018780006,
+        0.0
+      ],
+      "reported_absolute_difference": [
+        7.2934986244943545e-09,
+        1.6054856010611074e-08,
+        7.687440609430163e-09,
+        6.7773301470897e-08,
+        0.0
+      ],
+      "passed": true
+    }
+  ],
+  "rollout_sha256": "f1ff978b257f9794892a777915b95302f989903be6e97405f09800c07ef76e91"
+}

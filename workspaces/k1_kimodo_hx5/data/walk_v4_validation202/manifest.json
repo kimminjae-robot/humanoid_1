@@ -1,0 +1,105 @@
+{
+  "clip_id": "walk_slow_validation_202",
+  "motion_id": "walk_slow",
+  "split": "validation",
+  "seed": 202,
+  "source_sha256": "6e0208f1d11c6824e6f17aeb1b8eabcdd6a4563b738ec4f57be5011057656a58",
+  "source_manifest": "data/raw/20261021_110632_045222_stage02_official_baseline/walk_slow_validation_202/manifest.json",
+  "accepted_for_tracking": false,
+  "frames": 2040,
+  "fps": 50,
+  "reference_npz": "data/walk_v4_validation202/reference.npz",
+  "qpos_csv": "data/walk_v4_validation202/qpos.csv",
+  "method": "contact_aware_conservative_Kimodo_footsteps_K1_IK",
+  "variant": "walk_v4_validation202",
+  "max_sampled_foot_position_error_m": 1.0676411416458836e-06,
+  "source_G1_csv": "g1_kimodo/data/processed/20261021_115621_761537_stage03_curated/final/walk_slow_validation_202/qpos.csv",
+  "source_bundle_sha256": "fdeb1aa887f55f6187b573d0beb74f3fc17be53155cae840542af7faebe43d7b",
+  "model_sha256": "8a2c073388e1300bd0db267b58c6f01438b13086af9950c397d1fae79cbeba6c",
+  "source_contact_events": [
+    {
+      "source_start": 73,
+      "source_end": 126,
+      "swing_side": "right",
+      "destination_ankle_m": [
+        0.13491907084418334,
+        -0.125,
+        0.066
+      ]
+    },
+    {
+      "source_start": 150,
+      "source_end": 197,
+      "swing_side": "left",
+      "destination_ankle_m": [
+        0.13959785888098497,
+        0.125,
+        0.066
+      ]
+    },
+    {
+      "source_start": 215,
+      "source_end": 288,
+      "swing_side": "right",
+      "destination_ankle_m": [
+        0.2665071453408109,
+        -0.125,
+        0.066
+      ]
+    },
+    {
+      "source_start": 337,
+      "source_end": 366,
+      "swing_side": "left",
+      "destination_ankle_m": [
+        0.26639830146759,
+        0.125,
+        0.066
+      ]
+    },
+    {
+      "source_start": 399,
+      "source_end": 456,
+      "swing_side": "right",
+      "destination_ankle_m": [
+        0.3898825936326863,
+        -0.125,
+        0.066
+      ]
+    },
+    {
+      "source_start": 488,
+      "source_end": 530,
+      "swing_side": "left",
+      "destination_ankle_m": [
+        0.3683077176037665,
+        0.125,
+        0.066
+      ]
+    }
+  ],
+  "settings": {
+    "label": "walk_v4_validation202",
+    "scale": 0.3,
+    "transfer_s": 3.0,
+    "swing_s": 3.0,
+    "height": 0.74,
+    "source_clip": "walk_slow_validation_202"
+  },
+  "upper_body": "neutralized_to_isolate_gait; fingers_hold_original_targets",
+  "root_orientation": "upright_heading_zero",
+  "duration_s": 40.78,
+  "forward_foot_displacement_m": [
+    [
+      0.3570288544779396,
+      0.0,
+      0.0
+    ],
+    [
+      0.37860373050685936,
+      0.0,
+      0.0
+    ]
+  ],
+  "elapsed_s": 14.142869318005978
+}

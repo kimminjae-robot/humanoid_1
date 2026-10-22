@@ -1,0 +1,18 @@
+{
+  "scope": "11_asymmetric_pose_fixtures_against_original_K1_model_not_hardware_mount_certification",
+  "checks": {
+    "63_actuators": true,
+    "23_body_plus_40_hand_joints": true,
+    "source_K1_FK_position_under_1um": true,
+    "wrist_mount_rotation_and_roll_axis_under_1urad": true,
+    "mass_no_double_count": true,
+    "positive_inertias": true
+  },
+  "passed": true,
+  "max_position_error_m": 0,
+  "max_rotation_error_rad": 6.008557273901444e-16,
+  "original_mass_kg": 35.706045,
+  "official_hand_pair_mass_kg": 1.8405656060000002,
+  "combined_expected_mass_kg": 36.808610606,
+  "combined_actual_mass_kg": 36.808610605999995
+}

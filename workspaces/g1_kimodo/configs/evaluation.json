@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_stage_4_engineering_targets",
+  "evaluation_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "episodes_per_clip": 10,
+  "reset_schedule": "fixed_explicit_initial_states_shared_between_backends",
+  "start_frame": 0,
+  "full_clip_required": true,
+  "post_clip_settle_s": 1.0,
+  "reference_during_settle": "hold_final_pose_with_zero_reference_velocity",
+  "kinematic_gate": {
+    "finite_values_required": true,
+    "quaternion_norm_tolerance": 0.001,
+    "joint_limit_tolerance_rad": 0.02,
+    "max_ground_penetration_m": 0.02,
+    "max_contact_foot_slip_speed_m_s": 0.15,
+    "max_contact_slip_frame_fraction": 0.05,
+    "max_self_collision_depth_m": 0.01,
+    "max_joint_velocity_limit_exceedance_fraction": 0.01,
+    "max_joint_velocity_limit_ratio": 1.2,
+    "prompt_review_required": true,
+    "max_root_linear_speed_m_s": 0.8,
+    "max_root_linear_acceleration_m_s2": 3.0
+  },
+  "dynamic_episode_gate": {
+    "min_base_height_m": 0.35,
+    "max_base_tilt_deg": 60,
+    "fall_violation_persistence_s": 0.1,
+    "forbidden_contacts": [
+      "head_or_torso_with_ground"
+    ],
+    "max_joint_position_rmse_rad": 0.35,
+    "max_root_relative_body_position_rmse_m": 0.1,
+    "max_world_root_position_rmse_m": 0.2,
+    "max_hand_position_rmse_m": 0.12,
+    "max_torque_saturation_fraction": 0.01,
+    "finite_state_and_action_required": true
+  },
+  "aggregate_gate": {
+    "min_nominal_success_rate_per_motion": 0.9,
+    "max_isaac_to_mujoco_success_drop_percentage_points": 10,
+    "min_robustness_success_rate_per_motion": 0.8,
+    "nominal_and_robustness_reported_separately": true
+  },
+  "robustness_sweep_provisional": {
+    "friction": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "mass_multiplier": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "action_delay_control_steps": [
+      0,
+      1
+    ],
+    "sweep_mode": "one_factor_at_a_time",
+    "pushes": "add_after_nominal_pass_with_force_and_duration_recorded"
+  },
+  "frozen_on": "2026-10-21",
+  "reference_definition_config_sha256": "c14743415dbd6d5cc8d2004cdb9713ada0f1d4c1a400d7fa4dc16efa4ebeef9d",
+  "additional_stage_3_gate_reason": "V4 had root spikes missed by foot/joint QA. Added stricter pelvis speed/acceleration gates before policy training; no previous numeric gate relaxed."
+}

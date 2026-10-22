@@ -32,10 +32,9 @@ bash workspaces/k1_kimodo_hx5/run.sh assess --run salute_pc_001
 - [다른 PC 설치·G1 재평가·새 모션 생성·Isaac 학습](docs/REPRODUCE.md)
 - [포함·제외 파일과 출처](docs/PACKAGE_SCOPE.md)
 - [별도 경로·독립 환경 재실행 결과](docs/VALIDATION.md)
-- [K1 경례 비교 영상](workspaces/k1_kimodo_hx5/reports/gallery_salute_improved.html)
 - [경례 개선 근거](workspaces/k1_kimodo_hx5/reports/salute_improvement.md)
 - [G1 양쪽 엔진 비교](workspaces/g1_kimodo/reports/stage_05.md)
 
-HTML 영상은 clone 후 브라우저로 열거나 저장소에서 `python3 -m http.server 8000`으로 볼 수 있습니다. GitHub 파일 보기에서는 HTML이 실행되지 않습니다.
+영상은 `run.sh review --run <새 평가 label>`로 생성할 수 있습니다. 설치 절차는 재현 문서에 있습니다.
 
-필수 로봇 메시, 선택 reference, G1 정책·체크포인트와 결과 근거를 포함합니다. 가상환경, HF 캐시·토큰, 대형 생성 모델과 중복 실험은 제외했습니다. 모델은 고정 revision으로 내려받습니다. `sources.lock.json`과 `PACKAGE_MANIFEST.json`에 출처와 배포 파일 해시를 기록합니다.
+필수 로봇 메시, 선택 reference, G1 실행 정책과 평가 초기 상태를 포함합니다. 학습 재개용 체크포인트·과거 rollout·영상은 제외했습니다. G1 독립 비교 감사에 필요한 Isaac rollout 1개를 보존했습니다. 가상환경, HF 캐시·토큰, 대형 생성 모델과 중복 실험은 제외했습니다. 모델은 고정 revision으로 내려받습니다. `sources.lock.json`과 `PACKAGE_MANIFEST.json`에 출처와 배포 파일 해시를 기록합니다.

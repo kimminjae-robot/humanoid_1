@@ -1,0 +1,9 @@
+{
+  "label": "pistol_aim_002",
+  "prompt": "A person stands still with both feet planted on the ground, raises both arms to chest height and aims a pistol straight ahead using both hands, then holds the aiming pose steadily. The right hand holds the pistol and the left hand supports the right hand. No walking and no firing.",
+  "seed": 73111,
+  "duration_s": 6.0,
+  "diffusion_steps": 100,
+  "scope": "whole_body_aiming_animation; no physical weapon, finger grasp or firing simulation",
+  "retry_of": "pistol_aim_001: output converter returned ndarray; same seed and prompt, no motion quality selection"
+}

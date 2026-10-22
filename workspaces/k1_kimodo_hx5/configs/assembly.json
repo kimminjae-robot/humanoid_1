@@ -1,0 +1,43 @@
+{
+  "attachments": [
+    {
+      "side": "left",
+      "source_xml": "third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_left.xml",
+      "source_sha256": "740dd652f7b27e40a60dca3cde2358a8b193a963c999c4b2502c6a25cbce5968",
+      "parent": "left_wrist_roll_rubber_hand",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "quaternion_wxyz": [
+        0.7071067811865476,
+        0,
+        0.7071067811865476,
+        0
+      ],
+      "status": "simulation_mount_assumption_not_hardware_verified"
+    },
+    {
+      "side": "right",
+      "source_xml": "third_party/robotis_hand/robotis_hand_description/mujoco/hx5_d20_rev2/hx5_d20_right.xml",
+      "source_sha256": "e6de4c63ff62d3e1ba2dac7b32bc0bb290714f051a3a17b347fe8df4660a2252",
+      "parent": "right_wrist_roll_rubber_hand",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "quaternion_wxyz": [
+        0.7071067811865476,
+        0,
+        0.7071067811865476,
+        0
+      ],
+      "status": "simulation_mount_assumption_not_hardware_verified"
+    }
+  ],
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "hand_target": "zero_clipped_to_official_joint_ranges"
+}

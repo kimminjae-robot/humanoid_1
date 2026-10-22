@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-21",
+  "current_stage": 5,
+  "last_completed_stage": 3,
+  "next_stage": 6,
+  "stages": [
+    {
+      "id": 0,
+      "name": "조사·설계·기본 셋업",
+      "status": "complete",
+      "report": "reports/stage_00.md"
+    },
+    {
+      "id": 1,
+      "name": "환경·자산·제어 계약 확정",
+      "status": "complete",
+      "report": "reports/stage_01.md"
+    },
+    {
+      "id": 2,
+      "name": "G1 모션 생성",
+      "status": "complete",
+      "report": "reports/stage_02.md"
+    },
+    {
+      "id": 3,
+      "name": "운동학 검증·reference 정제",
+      "status": "complete",
+      "report": "reports/stage_03.md"
+    },
+    {
+      "id": 4,
+      "name": "Isaac Lab 추종 학습·export",
+      "status": "in_progress",
+      "report": "reports/stage_04.md"
+    },
+    {
+      "id": 5,
+      "name": "MuJoCo sim-to-sim",
+      "status": "in_progress",
+      "report": "reports/stage_05.md"
+    },
+    {
+      "id": 6,
+      "name": "개선·최종 평가·재현 패키지",
+      "status": "pending",
+      "report": null
+    }
+  ],
+  "pending_prerequisites": [],
+  "next_action": "프레임워크 연결 완료. 양쪽 걷기 failure cohort의 COM/ZMP·지지발 전환 reference 개선 → QA → Isaac 재학습/전체 회귀 → 동일 정책 MuJoCo 비교. 기본3종 성능 gate는 아직 미통과.",
+  "artifacts_stage_2": {
+    "run_id": "20261021_110632_045222_stage02_official_baseline",
+    "generation_summary": "reports/stage_02_generation.json",
+    "raw_split_manifest": "data/splits/20261021_110632_045222_stage02_official_baseline.json",
+    "semantic_review": "runs/20261021_110632_045222_stage02_official_baseline/semantic_review.json",
+    "dataset_status": "all_15_raw_sources_preserved; see artifacts_stage_3 for derived selection"
+  },
+  "artifacts_stage_3": {
+    "run_id": "20261021_115621_761537_stage03_curated",
+    "dataset_index": "data/processed/20261021_115621_761537_stage03_curated/final/dataset.json",
+    "report": "reports/stage_03.md",
+    "readiness": "reports/stage_03_readiness.json",
+    "frozen_evaluation": "reports/stage_03_frozen_evaluation.json",
+    "evaluation_sha256": "f5df6cd6be95b6254b4771c497a8bba0d615d9c80544ebbad34c636122f82c31",
+    "accepted": 14,
+    "rejected": 1,
+    "accepted_counts": {
+      "stand": {
+        "train": 3,
+        "validation": 2
+      },
+      "wave": {
+        "train": 3,
+        "validation": 2
+      },
+      "walk_slow": {
+        "train": 2,
+        "validation": 2
+      }
+    },
+    "dynamic_tracking_validated": false
+  },
+  "artifacts_stage_4": {
+    "scope": "partial_stand_wave_pass_walk_fail",
+    "baseline_checkpoint": "runs/20261021_124755_775412_stage04_stand_masked_frozen_v9/model_4.pt",
+    "baseline_evaluation_runs": {
+      "stand": "20261021_124850_033832_stage04_stand_frozen_eval_v9",
+      "wave": "20261021_125025_209775_stage04_wave_transfer_eval_v9",
+      "walk_slow": "20261021_125229_998350_stage04_walk_transfer_eval_v9"
+    },
+    "baseline_nominal_success_rates": {
+      "stand": 1.0,
+      "wave": 1.0,
+      "walk_slow": 0.0
+    },
+    "active_training_run": null,
+    "controller_profile": "configs/tracking_contract_stiff.json",
+    "training_variant": "frozen validated balance actor plus trainable residual MLP; PPO on 8 train clips; walking/stand/wave sampling 3/1/1",
+    "dynamic_sim2sim_validated": false,
+    "latest_checkpoint": "runs/20261021_125809_049195_stage04_multimotion_residual_train_v11/model_84.pt",
+    "latest_evaluation_run": "20261021_130836_931130_stage04_multimotion_eval_v11",
+    "latest_success_rates": {
+      "stand": 1.0,
+      "wave": 1.0,
+      "walk_slow": 0.0
+    },
+    "readiness": "reports/stage_04_readiness.json",
+    "summary": "reports/stage_04_summary.json",
+    "gallery": "reports/stage_04_gallery.html",
+    "candidate_export": "exports/stage04_candidate_v11",
+    "adopted_conditioning_variant": null
+  },
+  "execution_priority_override": {
+    "date": "2026-10-21",
+    "user_instruction": "MuJoCo sim-to-sim 프레임워크를 먼저 완성하고 성능 개선",
+    "framework_integration_complete": true,
+    "performance_gate_complete": false
+  },
+  "artifacts_stage_5": {
+    "scope": "integration_complete_performance_partial",
+    "framework_integration_complete": true,
+    "performance_passed": false,
+    "nominal_run": "runs/stage05_mujoco_v11_box_compiled",
+    "refined_run": "runs/stage05_mujoco_v11_refined",
+    "Isaac_run": "runs/20261021_130836_931130_stage04_multimotion_eval_v11",
+    "summary": "reports/stage_05_summary.json",
+    "gallery": "reports/stage_05_gallery.html",
+    "baseline_package": "exports/sim2sim_v11_baseline",
+    "success_rates": {
+      "stand": 1.0,
+      "wave": 1.0,
+      "walk_slow": 0.0
+    },
+    "unmeasured": [
+      "PhysX applied torque fixture",
+      "Isaac timestep refinement",
+      "robustness and final seeds"
+    ]
+  }
+}
